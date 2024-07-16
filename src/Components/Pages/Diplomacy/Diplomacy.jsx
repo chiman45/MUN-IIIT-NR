@@ -3,7 +3,7 @@ import './Diplomacy.css';
 
 const Diplomacy = () => {
   return (
-    <div className="container mt-5 div">
+    <div className="contain div">
       <h1 className="text-center">WORLD WHERE DIPLOMACY BEGINS</h1>
       <p className='mt-5'>
         MUN IIIT NR stands as a pinnacle of intellectual exchange and diplomatic engagement, drawing together a diverse array of individuals from various backgrounds and disciplines. Hosted with pride by the renowned Indian Institute of Information Technology, Naya Raipur (IIIT NR), this Model United Nations conference serves as a crucible for passionate participants to immerse themselves in the intricacies of global issues through meticulously crafted simulations of diplomatic debates and negotiations.
