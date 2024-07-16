@@ -1,0 +1,99 @@
+.div {
+    background-color: #290040;
+    color: white;
+    padding: 30px;
+}
+
+.custom-image {
+    width: 80%;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 20px auto; /* Centering the image horizontally with margin:auto */
+    margin-left: 10%;
+    border-radius: 20px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Cinzel', 'sans-serif';
+    font-weight: 900;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    color: white;
+}
+
+.about-p {
+    font-family: 'Crimson Pro', 'sans-serif';
+    font-weight: 200;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .custom-image {
+        max-width: 400px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .custom-image {
+        max-width: 300px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-image {
+        width: 90%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .about-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .custom-image {
+        width: 100%;
+        margin: 10px auto; /* Adjust margin for better centering on smaller screens */
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* Media Query for iPad Air */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .custom-image {
+        max-width: 80%; /* Adjust image size for iPad Air */
+        margin: 20px auto; /* Center the image with margin:auto */
+    }
+}
