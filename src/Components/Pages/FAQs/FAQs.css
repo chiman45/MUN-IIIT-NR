@@ -1,0 +1,135 @@
+/* Base Styles */
+.answer {
+    padding: 16px 30px;
+    transition: height 0.3s ease-out;
+    overflow: hidden;
+    height: 0;
+}
+
+.collapse.show {
+    height: auto;
+    padding: 16px 30px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 35px;
+    background: #F3DCFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px #D587FF66;
+    margin-left: 2vw;
+    padding: 5px;
+}
+
+.question img {
+    transition: transform 0.3s ease-out;
+}
+
+.question img {
+    transform: rotate(180deg);
+}
+
+.collapsed img {
+    transform: rotate(0deg);
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #290040;
+    color: white;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Cinzel', 'sans-serif';
+    font-weight: 900;
+    text-align: center;
+    line-height: 53.92px;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.faq-block {
+    border: 1px solid #F3DCFF80;
+    border-radius: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    gap: 32px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.column {
+    flex: 1;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F3DCFF80;
+    padding: 16px 30px;
+    border-radius: 20px;
+    background: radial-gradient(54.08% 117.18% at 0% 88.89%, rgba(199, 97, 255, 0.15) 0%, rgba(128, 81, 153, 0) 100%),
+        radial-gradient(72.27% 168.29% at 101.59% 79.63%, rgba(184, 52, 255, 0.2) 0%, rgba(214, 140, 255, 0) 100%),
+        linear-gradient(0deg, #290040, #290040);
+    font-size: 18px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .faq-block {
+        margin: 15px 0;
+    }
+
+    .question, .answer {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .circle {
+        height: 20px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .question, .answer {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .circle {
+        height: 18px;
+        width: 20px;
+        padding: 5px;
+    }
+
+    .circle img{
+        height: 10px;
+        width: 10px;
+    }
+}
