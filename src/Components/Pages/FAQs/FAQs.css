@@ -1,41 +1,4 @@
-/* Base Styles */
-.answer {
-    padding: 16px 30px;
-    transition: height 0.3s ease-out;
-    overflow: hidden;
-    height: 0;
-}
-
-.collapse.show {
-    height: auto;
-    padding: 16px 30px;
-}
-
-.circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25px;
-    width: 35px;
-    background: #F3DCFF;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 0px #D587FF66;
-    margin-left: 2vw;
-    padding: 5px;
-}
-
-.question img {
-    transition: transform 0.3s ease-out;
-}
-
-.question img {
-    transform: rotate(180deg);
-}
-
-.collapsed img {
-    transform: rotate(0deg);
-}
-
+/* General Styles */
 .faq-container {
     display: flex;
     flex-direction: column;
@@ -56,13 +19,6 @@ h1 {
     color: white;
 }
 
-.faq-block {
-    border: 1px solid #F3DCFF80;
-    border-radius: 20px;
-    margin: 25px;
-    cursor: pointer;
-}
-
 .flex-container {
     display: flex;
     gap: 32px;
@@ -74,6 +30,15 @@ h1 {
     flex: 1;
 }
 
+/* FAQ Blocks */
+.faq-block {
+    border: 1px solid #F3DCFF80;
+    border-radius: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+/* Questions */
 .question {
     display: flex;
     justify-content: space-between;
@@ -85,6 +50,41 @@ h1 {
         radial-gradient(72.27% 168.29% at 101.59% 79.63%, rgba(184, 52, 255, 0.2) 0%, rgba(214, 140, 255, 0) 100%),
         linear-gradient(0deg, #290040, #290040);
     font-size: 18px;
+}
+
+.question.expanded img {
+    transform: rotate(180deg);
+}
+
+.question.collapsed img {
+    transform: rotate(0deg);
+}
+
+/* Answers */
+.answer {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.answer.show {
+    max-height: 500px;
+    padding: 16px 30px;
+}
+
+/* Circle */
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 35px;
+    background: #F3DCFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px #D587FF66;
+    margin-left: 2vw;
+    padding: 5px;
 }
 
 /* Media Queries for Responsiveness */
@@ -100,7 +100,8 @@ h1 {
         margin: 15px 0;
     }
 
-    .question, .answer {
+    .question,
+    .answer {
         padding: 12px 20px;
         font-size: 16px;
     }
@@ -117,7 +118,8 @@ h1 {
         line-height: 40px;
     }
 
-    .question, .answer {
+    .question,
+    .answer {
         padding: 10px 15px;
         font-size: 14px;
     }
@@ -128,7 +130,7 @@ h1 {
         padding: 5px;
     }
 
-    .circle img{
+    .circle img {
         height: 10px;
         width: 10px;
     }
