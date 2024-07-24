@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: Cinzel;
 }
+@font-face{
+  font-family: Cinzel;
+  src:url("./Assets/Fonts/Cinzel-Regular.ttf");
+}
+@font-face{
+  font-family: Cinzel_bold;
+  src:url("./Assets/Fonts/Cinzel-Bold.otf");
+}
+
 
 body::-webkit-scrollbar {
     width: 5px;

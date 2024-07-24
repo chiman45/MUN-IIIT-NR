@@ -4,7 +4,7 @@ import Diplomacy from "./Components/Pages/Diplomacy/Diplomacy"
 import About from "./Components/Pages/About/About"
 import FAQs from "./Components/Pages/FAQs/FAQs"
 import ContactUs from "./Components/Pages/ContactUs/ContactUs"
-
+import PastEvents from "./Components/Pages/Past_Events/Past_Events.jsx"
 //Import Components
 
 export default function App() {
@@ -12,8 +12,10 @@ export default function App() {
     <div className="main">
       <Diplomacy />
       <About />
+      <PastEvents />
       <FAQs />
       <ContactUs />
+      
     </div>
   )
 }

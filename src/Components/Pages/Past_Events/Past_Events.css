@@ -1,0 +1,78 @@
+.PastEvents{
+    background-color: #290040;
+    color: white;
+    
+}
+.PastEventscontainer{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: Cenzil;
+
+}
+.img1{
+    border-radius: 20px;
+    border: 2px solid #D587FF;
+    width: 100%;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.button{
+    height:7vh;
+    width:20%;
+    border-radius: 10px;
+    background: #F3DCFF;
+    position: absolute;
+    bottom:3vh;
+    font-size: 3vh;
+    font-weight: 800;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    width: 80%;
+}
+h1{
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+    font-family: Cinzel_bold;
+    font-size: 45px;
+    color: white;
+}
+
+@media (max-width:769px) {
+.button{
+    font-size: 2vh;
+    width:25%;
+    height:25%;
+    bottom: 2vh;
+}
+}
+@media (max-width:890px) {
+    .button{
+        font-size: 2vh;
+        width:25%;
+        height:25%;
+        bottom: 2vh;
+    }
+    }
+    @media (max-width:450px) {
+        .button{
+            font-size: 1vh;
+            width:25%;
+            height:25%;
+            bottom: 1vh;
+        }
+        }
+        @media (max-width:2000px) and (min-width:900px) and (max-height:1400px) and (min-height:1300px)  {
+            .button{
+                font-size: 1.2vh;
+                width:20%;
+                height:20%;
+                bottom: 1vh;
+            }
+            }
