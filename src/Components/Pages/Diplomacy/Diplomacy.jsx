@@ -1,4 +1,4 @@
-import MUNImage from '../../../images/MUN.png';
+import MUNImage from '../../../images/MUN.jpg';
 import './Diplomacy.css';
 
 const Diplomacy = () => {
