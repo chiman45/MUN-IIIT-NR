@@ -14,7 +14,7 @@ const FAQs = () => {
       <h1>FAQs</h1>
       <div className='flex-container'>
         <div className="column">
-
+          
           <div className='faq-block'>
             <div
               className={`question ${activeQuestion === 'q1' ? 'expanded' : 'collapsed'}`}
