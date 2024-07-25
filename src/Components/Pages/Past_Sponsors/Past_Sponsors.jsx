@@ -22,7 +22,7 @@ import img19 from "../../../Assets/sponsors/19.png";
 import "./Past_Sponsors.css"
 export default function Past_Sponsors(){
     return(
-        <>
+        <div className="sponsors">
         <div className="Past_Sponsors">
             <h1 className="pastsponsor">Past Sponsors</h1>
         </div>
@@ -99,6 +99,6 @@ export default function Past_Sponsors(){
         </Marquee>
       </div>
     
-     </>
+     </div>
     )
 }
