@@ -7,7 +7,8 @@ export default function PastEvents(){
             <div className="PastEventscontainer">
             <h1>Past Events</h1>
 <div className="image1">
-            <img src={PastEventIMG}  className="img1" />
+            <div className="img1" >
+                </div>
             <button className="button">Know more</button>
             </div>
             </div>

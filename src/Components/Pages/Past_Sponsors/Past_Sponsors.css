@@ -1,0 +1,60 @@
+.Past_Sponsors{
+    background-color: #290040;
+
+}
+h1{
+    font-size: 5vw;
+}
+.pastsponsor{
+    font-family: Cinzel_bold;
+    font-weight: 900;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    margin: 0%;
+}
+.App {
+    margin-top: 50px;
+    text-align: center;
+   ;
+  }
+  
+  .title {
+    margin-bottom: 50px;
+  }
+  
+  .image_wrapper {
+    
+    background-color: #290040;
+
+ display: flex;
+ justify-content: center;
+
+ border: 0;
+margin:2%;
+  }
+  
+  .image_wrapper img {
+    width: 15vw;
+    border-radius: 20px;
+
+  border: 0;
+  }
+  .image_wrapper_background{
+    background-color: #290040;
+    display: flex;
+   border:0;
+  }
+  /* @media (max-width:400px){
+    .pastsponsor{
+    font-size: 20vw;
+    }
+  } */
+   @media (max-width:500px){
+    .image_wrapper img {
+        width: 24vw;
+   height: 8vh;
+   border-radius: 10px;
+      }
+   }
+ 

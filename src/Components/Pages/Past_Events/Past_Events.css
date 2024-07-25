@@ -12,10 +12,14 @@ font-family: Cenzil;
 
 }
 .img1{
+    background-image: url("../../../images/past_events.png");
     border-radius: 20px;
     border: 2px solid #D587FF;
-    width: 100%;
-    
+    width: 80vw;
+    background-size: contain;
+    min-height: 59vh;
+   
+ 
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 .button{
@@ -37,8 +41,8 @@ font-family: Cenzil;
     width: 80%;
 }
 h1{
-    padding-bottom: 8vh;
-    padding-top: 8vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
     font-family: Cinzel_bold;
     font-size: 45px;
     color: white;
