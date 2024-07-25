@@ -12,12 +12,12 @@ font-family: Cenzil;
 
 }
 .img1{
-    background-image: url("../../../images/past_events.png");
+
     border-radius: 20px;
     border: 2px solid #D587FF;
-    width: 80vw;
+    width: 100%;
     background-size: contain;
-    min-height: 59vh;
+   
    
  
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
