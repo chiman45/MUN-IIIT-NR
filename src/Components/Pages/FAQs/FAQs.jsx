@@ -11,11 +11,14 @@ const FAQs = () => {
 
   return (
     <div className="faq-container">
-      <h1>FAQs</h1>
+      <h1 data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="3500" data-aos-delay="300">FAQs</h1>
       <div className='flex-container'>
         <div className="column">
           
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-right"    data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="3000"
+     data-aos-delay="600">
             <div
               className={`question ${activeQuestion === 'q1' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q1')}
@@ -30,7 +33,10 @@ const FAQs = () => {
             </div>
           </div>
 
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-right"   data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="3000"
+     data-aos-delay="900">
             <div
               className={`question ${activeQuestion === 'q2' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q2')}
@@ -45,7 +51,10 @@ const FAQs = () => {
             </div>
           </div>
 
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-right"    data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="3000"
+     data-aos-delay="1200">
             <div
               className={`question ${activeQuestion === 'q3' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q3')}
@@ -64,7 +73,11 @@ const FAQs = () => {
 
         <div className='column'>
 
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-left" 
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="3000"
+          data-aos-delay="600">
             <div
               className={`question ${activeQuestion === 'q4' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q4')}
@@ -79,7 +92,11 @@ const FAQs = () => {
             </div>
           </div>
 
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-left"
+           data-aos-anchor="#example-anchor"
+           data-aos-offset="500"
+           data-aos-duration="3000"
+           data-aos-delay="900">
             <div
               className={`question ${activeQuestion === 'q5' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q5')}
@@ -94,7 +111,11 @@ const FAQs = () => {
             </div>
           </div>
 
-          <div className='faq-block'>
+          <div className='faq-block' data-aos="fade-left"  
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="3000"
+            data-aos-delay="1200">
             <div
               className={`question ${activeQuestion === 'q6' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q6')}

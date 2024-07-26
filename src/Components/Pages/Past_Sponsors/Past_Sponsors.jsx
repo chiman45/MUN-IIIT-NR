@@ -23,12 +23,13 @@ import "./Past_Sponsors.css"
 export default function Past_Sponsors(){
     return(
         <div className="sponsors">
-        <div className="Past_Sponsors">
+        <div className="Past_Sponsors" data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="3500">
             <h1 className="pastsponsor">Past Sponsors</h1>
         </div>
+        <div data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="3000" >
          <div>
          <Marquee speed={100} delay={0} direction={"left"}>
-            <div className="image_wrapper_background">
+            <div className="image_wrapper_background" >
            <div className="image_wrapper">
              <img src={img1} alt="" />
            </div>
@@ -64,7 +65,7 @@ export default function Past_Sponsors(){
        </div>
        <div>
         <Marquee speed={90} delay={0} direction={"right"}>
-        <div className="image_wrapper_background">
+        <div className="image_wrapper_background" >
           <div className="image_wrapper">
              <img src={img11} alt="" />
            </div>
@@ -98,7 +99,7 @@ export default function Past_Sponsors(){
            </div>
         </Marquee>
       </div>
-    
+      </div>
      </div>
     )
 }
