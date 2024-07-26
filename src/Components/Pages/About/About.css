@@ -1,19 +1,40 @@
 .div {
     background-color: #290040;
     color: white;
-    padding: 30px;
 }
 
-.custom-image {
-    width: 80%;
-    max-width: 500px;
-    max-height: 300px;
-    margin: 20px auto; /* Centering the image horizontally with margin:auto */
-    margin-left: 10%;
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 10vw;
+}
+
+.img-container {
+    margin: auto;
+
     border-radius: 20px;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    margin-bottom: 20px;
+    padding: 4px;
+    background: linear-gradient(to right, #D587FF, rgba(213, 135, 255, 0) 33%, rgba(213, 135, 255, 0) 66%, #D587FF);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.img-container .custom-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.8;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -32,51 +53,47 @@ h1 {
     font-family: 'Crimson Pro', 'sans-serif';
     font-weight: 200;
     text-align: justify;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    font-size: 16px;
-    line-height: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 27.78px;
     color: white;
 }
 
-/* Media Queries for Responsive Design */
-@media only screen and (max-width: 1200px) {
-    .custom-image {
-        max-width: 400px;
-        margin-left: 30px;
+@media only screen and (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
     }
-}
 
-@media only screen and (max-width: 990px) {
-    .custom-image {
-        max-width: 300px;
-        margin-left: 20px;
+    .about-p {
+        width: 100%;
+    }
+
+    .img-container .custom-image {
+        width: 100%;
+        object-fit: cover;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .custom-image {
-        width: 90%;
-        max-width: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     h1 {
         font-size: 25px;
         line-height: 36px;
     }
 
     .about-p {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        width: 95%;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
     .custom-image {
         width: 100%;
-        margin: 10px auto; /* Adjust margin for better centering on smaller screens */
     }
 
     h1 {
@@ -85,15 +102,8 @@ h1 {
     }
 
     .about-p {
-        font-size: 12px;
-        line-height: 18px;
-    }
-}
-
-/* Media Query for iPad Air */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .custom-image {
-        max-width: 80%; /* Adjust image size for iPad Air */
-        margin: 20px auto; /* Center the image with margin:auto */
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
     }
 }
