@@ -1,0 +1,18 @@
+.home {
+    height: 100svh;
+    background-image: url("../../../images/backg.png");
+    background-size: cover;
+}
+
+.home-nav {
+    background-color: transparent !important;
+}
+
+.home-button {
+    border: 1px solid rgba(213, 135, 255, 1) !important;
+    color: white !important;
+}
+
+.home-nav-links {
+    color: white !important;
+}

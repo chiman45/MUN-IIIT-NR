@@ -1,5 +1,5 @@
 import React from "react"
-import Home from "./Components/Pages/Home"
+import Home from "./Components/Pages/Home/Home.jsx"
 import Diplomacy from "./Components/Pages/Diplomacy/Diplomacy"
 import About from "./Components/Pages/About/About"
 import FAQs from "./Components/Pages/FAQs/FAQs"
@@ -12,7 +12,7 @@ import Past_Sponsors from "./Components/Pages/Past_Sponsors/Past_Sponsors.jsx"
 export default function App() {
   return (
     <div className="main">
-      
+      <Home />
       <Diplomacy />
       <About />
       <PastEvents />
