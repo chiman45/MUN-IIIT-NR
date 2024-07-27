@@ -8,7 +8,7 @@
     padding: 30px;
 }
 
-h1 {
+.faq-container h1 {
     font-family: 'Cinzel', 'sans-serif';
     font-weight: 900;
     text-align: center;
@@ -120,7 +120,7 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    h1 {
+    .faq-container h1 {
         font-size: 28px;
         line-height: 40px;
     }
