@@ -1,5 +1,4 @@
 import React from "react"
-import Home from "./Components/Pages/Home/Home.jsx"
 import Diplomacy from "./Components/Pages/Diplomacy/Diplomacy"
 import About from "./Components/Pages/About/About"
 import FAQs from "./Components/Pages/FAQs/FAQs"
@@ -13,7 +12,6 @@ export default function App() {
   return (
     <div className="main">
       <Navbar/>
-      <Home/>
       <Diplomacy />
       <About />
       <PastEvents />

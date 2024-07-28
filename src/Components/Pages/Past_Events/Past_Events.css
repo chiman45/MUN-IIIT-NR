@@ -49,7 +49,7 @@ font-family: Cenzil;
     padding-bottom: 3vh;
     padding-top: 3vh;
     font-family: Cinzel_bold;
-    font-size: 45px;
+    font-size: 40px;
     color: white;
 }
 
@@ -79,6 +79,9 @@ font-family: Cenzil;
         bottom: 1.6vh;
         height: 4.5vh;
         width: 20%;
+    }
+    .PastEvents h1{
+        font-size: 30px;
     }
 }
 

@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Diplomacy = () => {
   return (
-    <div className="contain div">
+    <div className="contain div" id="About Us">
       <h1 className="text-center" data-aos="fade-up"
      data-aos-duration="8000">WORLD WHERE DIPLOMACY BEGINS</h1>
       <p className='mt-5' data-aos="fade-up"

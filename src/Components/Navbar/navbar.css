@@ -1,0 +1,32 @@
+.nav-logo{
+    margin-right: auto;
+}
+.nav-logo img{
+    width:4rem;
+}
+.nav-button{
+    width:120px;
+    height:40px;
+    border-radius: 8px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #D587FF;
+    margin-left: auto;
+}
+
+@media (max-width:600px) {
+    .hamburger-icon{
+        z-index: 10;
+    }
+    .ham{
+        z-index: 100;
+        position: absolute;
+        right: 0;
+    }
+    .nav-button{
+        display: none;
+    }
+    .nav-logo{
+        position:absolute;
+    }
+}

@@ -8,7 +8,7 @@ import phone from '../../../images/phone.svg'
 
 const ContactUs = () => {
   return (
-    <div className="contact-us-container">
+    <div className="contact-us-container" id="Contact Us">
       <h1>Contact Us</h1>
       <hr />
       <div className="contact-us-flex">

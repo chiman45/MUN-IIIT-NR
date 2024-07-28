@@ -10,7 +10,7 @@ const FAQs = () => {
   };
 
   return (
-    <div className="faq-container">
+    <div className="faq-container" id="FAQ">
       <h1 data-aos="fade-up"  data-aos-easing="linear" data-aos-duration="3500" data-aos-delay="300">FAQs</h1>
       <div className='flex-container'>
         <div className="column">

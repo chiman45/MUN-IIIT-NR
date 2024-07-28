@@ -28,7 +28,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.text-center h1 {
+.text-center{
     font-family: 'Cinzel', 'sans-serif';
     font-weight: 900;
     text-align: center;
@@ -38,6 +38,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 1.5px;
     color: white;
+    z-index: 10;
 }
 
 p {
@@ -50,6 +51,7 @@ p {
     font-size: 20px;
     line-height: 27.78px;
     color: white;
+    z-index: 4;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -69,7 +71,7 @@ p {
         width: 100%;
     }
 
-    .text-center h1 {
+    .text-center{
         font-size: 25px;
         line-height: 36px;
     }
@@ -85,7 +87,7 @@ p {
         height: 35vh;
     }
 
-    .text-center h1 {
+    .text-center{
         font-size: 20px;
         line-height: 28px;
     }

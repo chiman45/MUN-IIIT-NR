@@ -14,8 +14,7 @@ export default function PastEvents(){
             <div className="overlay"></div>
             <button className="button" data-aos="fade-up">Know more</button>
                 </div>
-            </div>
-            
+            </div>            
         </div>
     )
 }
