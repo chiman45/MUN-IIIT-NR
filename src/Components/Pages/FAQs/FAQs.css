@@ -6,6 +6,8 @@
     background-color: #290040;
     color: white;
     padding: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .faq-container h1 {

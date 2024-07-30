@@ -1,8 +1,10 @@
-.div {
+.contain {
     background-color: #290040;
     color: white;
     padding: 30px;
     margin: 0;
+    position: relative;
+    z-index: 2; /* Ensure this page is above the Home page */
 }
 
 .image-container {
@@ -11,7 +13,6 @@
     height: 384px;
     margin: auto;
     border-radius: 20px;
-    /* max-width: 250px; */
     padding: 1rem;
     background: linear-gradient(to right, #D587FF, rgba(213, 135, 255, 0) 33%, rgba(213, 135, 255, 0) 66%, #D587FF);
     padding: 3px;
@@ -28,7 +29,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.text-center{
+.text-center {
     font-family: 'Cinzel', 'sans-serif';
     font-weight: 900;
     text-align: center;
@@ -38,7 +39,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 1.5px;
     color: white;
-    z-index: 10;
+    z-index: 1;
 }
 
 p {
@@ -71,7 +72,7 @@ p {
         width: 100%;
     }
 
-    .text-center{
+    .text-center {
         font-size: 25px;
         line-height: 36px;
     }
@@ -87,7 +88,7 @@ p {
         height: 35vh;
     }
 
-    .text-center{
+    .text-center {
         font-size: 20px;
         line-height: 28px;
     }

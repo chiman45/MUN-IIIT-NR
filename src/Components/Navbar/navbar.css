@@ -29,4 +29,7 @@
     .nav-logo{
         position:absolute;
     }
+    .nav-logo img{
+        width:3.4rem;
+    }
 }
