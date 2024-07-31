@@ -54,12 +54,41 @@
     z-index: 2; /* Ensure earth is above buildings but below MUN_gif */
     top: 65vh; /* Adjust as needed */
     width: 100%;
+    height: 100%;
 }
 
 .earth img {
     width: 100%;
-    transition: transform 0.3s ease-out; /* Smooth zoom transition */
+    transition: transform 0.3s ease-out;  /* Smooth zoom transition */
 }
+
+.flags{
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.flag1{
+    position: relative;
+    left: 0;
+}
+.flag2{
+    position: relative;
+    right: 0;
+}
+
+.flag1 img{
+    position: absolute;
+    left: 0;
+    top:-18vw;
+    width:40%;
+}
+.flag2 img{
+    position: absolute;
+    right: 0;
+    top:-18vw;
+    width:40%;
+}
+
 
 @media (max-width: 980px) {
     .MUN_gif img {
@@ -73,7 +102,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
     .MUN_gif img {
         height: 12vh;
     }
@@ -83,4 +112,18 @@
     .home h6 {
         font-size: 12px;
     }
+    /* .earth{
+        height: 100%;
+    }
+    .earth img{
+        height:25%;
+    } */
+    /* .flag1 img{
+        top:-23vw;
+        width:45%;
+    }
+    .flag2 img{
+        top:-23vw;
+        width:45%;
+    } */
 }

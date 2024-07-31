@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 AOS.init({once:true});
 const About = () => {
   return (
-    <div className="contain div">
+    <div className="contain div" id="About Us">
       <h1 className="text-center" data-aos="fade-up"
      data-aos-duration="6000">ABOUT IIITNR</h1>
       <div className="mt-5 about-container">

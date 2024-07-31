@@ -8,7 +8,7 @@ AOS.init({ once: true });
 
 const Diplomacy = () => {
   return (
-    <div className="contain">
+    <div className="contain" id="About Us">
       <h1 className="text-center" data-aos="fade-up" data-aos-duration="8000">
         WORLD WHERE DIPLOMACY BEGINS
       </h1>
