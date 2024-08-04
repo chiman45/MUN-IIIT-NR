@@ -13,6 +13,7 @@ AOS.init({once:true});
 //Import Components
 
 export default function App() {
+  particlesJS.load('particles-js', 'assets/particles.json');
   return (
     <div className="main">
       <Navbar />

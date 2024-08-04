@@ -56,7 +56,7 @@ export default function Home() {
             return () => {
                 $(window).off('scroll', handleScroll);
             };
-        },1700)
+        },1750)
     }, []);
 
     return (
