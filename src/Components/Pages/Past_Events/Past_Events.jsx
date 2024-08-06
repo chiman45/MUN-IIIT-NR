@@ -10,9 +10,9 @@ export default function PastEvents(){
             <div className="PastEventscontainer">
             <h1 data-aos="fade-up"  data-aos-duration="3000">Past Events</h1>
             <div className="image1">
-            <img src={PastEventIMG} className="img1" data-aos="fade-up"  data-aos-duration="3000" />
-            <div className="overlay"></div>
-            <button className="button" data-aos="fade-up">Know more</button>
+            <img src={PastEventIMG} className="img1" data-aos="fade-up"  />
+            <div className="overlay"><button className="button">Know more</button></div>
+            
                 </div>
             </div>            
         </div>
