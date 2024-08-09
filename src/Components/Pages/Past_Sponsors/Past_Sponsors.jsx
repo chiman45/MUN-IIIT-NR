@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel1 from "../../Carousel1";
-import Carousel2 from "../../Carousel2";
+// import Carousel2 from "../../Carousel2";
 import "./Past_Sponsors.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -13,7 +13,7 @@ export default function Past_Sponsors(){
         </div>
         <div className="marquee">
           <Carousel1/>
-          <Carousel2/>
+          {/* <Carousel2/> */}
       </div>
      </div>
     )

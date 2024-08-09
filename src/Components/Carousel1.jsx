@@ -11,6 +11,9 @@ import img7 from "../Assets/sponsors/7.png";
 import img8 from "../Assets/sponsors/8.png";
 import img9 from "../Assets/sponsors/9.png";
 import img10 from "../Assets/sponsors/10.png";
+import img11 from "../Assets/sponsors/11.png";
+import img12 from "../Assets/sponsors/12.png";
+import img13 from "../Assets/sponsors/13.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init({once: true}); 
@@ -49,6 +52,15 @@ const Carousel1 = () => {
      </div>
      <div className="image_wrapper">
        <img src={img10} alt="" />
+     </div>
+     <div className="image_wrapper">
+       <img src={img11} alt="" />
+     </div>
+     <div className="image_wrapper">
+       <img src={img12} alt="" />
+     </div>
+     <div className="image_wrapper">
+       <img src={img13} alt="" />
      </div>
    </Marquee>
    </div>

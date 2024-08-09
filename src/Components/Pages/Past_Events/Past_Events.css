@@ -63,7 +63,7 @@ font-family: Cenzil;
 }
 
 .PastEvents h1{
-    margin: 5vh;
+    margin: 2vh;
 }
 
 @media (max-width:1200px) {
@@ -84,6 +84,9 @@ font-family: Cenzil;
 }
 
 @media (max-width:860px) {
+    .overlay{
+        opacity: 1;
+    }
     .button{
         bottom: 1.6vh;
         height: 4.5vh;
@@ -103,6 +106,6 @@ font-family: Cenzil;
         border-radius: 6px;
     }
     .image1 img{
-       height: 30vh;
+       height: 25vh;
     }
 }

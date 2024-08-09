@@ -17,7 +17,7 @@ import Logo from "../../Assets/logo/Logo.png";
 import "./navbar.css";
 import Hamburger from 'hamburger-react';
 
-const navItems = ['About Us', 'Past Event', 'Team', 'FAQ'];
+const navItems = ['About Us', 'Past Event', 'Team', 'FAQ', 'Contact Us'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -108,22 +108,22 @@ function DrawerAppBar(props) {
               <img src={Logo} alt="Logo" />
             </div>
             <Box sx={{ display: { xs: 'none', sm: 'flex', background: "rgba(72, 0, 152, 0.62)",
-                    borderRadius: "16px",
+                    borderRadius: "20px",
                     boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
                     backdropFilter: "blur(5.4px)",
                     webkitBackdropFilter: "blur(5.4px)",
-                    border: "1px solid rgba(72, 0, 152, 0.3)",} }}>
+                    border: "1px solid rgba(72, 0, 152, 0.3)", marginRight:"auto", gap:"2vh",padding:"0.5vh"} }}>
               {navItems.map((item) => (
                 <Button 
                   key={item} 
-                  sx={{ color: navlistColor, fontFamily: "Cinzel",/* From https://css.glass */ }} // Use the navlistColor state
+                  sx={{ color: navlistColor, fontFamily: "Cinzel"/* From https://css.glass */ }} // Use the navlistColor state
                   href={`#${item}`}
                 >
                   {item}
                 </Button>
               ))}
             </Box>
-            <button className='nav-button'>Contact Us</button>
+            {/* <button className='nav-button'>Contact Us</button> */}
           </Toolbar>
         </AppBar>
         <nav>

@@ -45,14 +45,14 @@ export default function App() {
                   enabled: true
               }
           ],
-          speed: 2,
+          speed: 8,
           horizontalPressure: 2,
           verticalPressure: 5,
           waveFrequencyX: 2,
           waveFrequencyY: 4,
           waveAmplitude: 3,
           shadows: 7,
-          highlights: 6,
+          highlights: 10,
           colorBrightness: 1,
           colorSaturation: 1,
           wireframe: false,
