@@ -81,7 +81,7 @@ export default function App() {
                 }}
                 ref={canvasRef}
             />
-            <div className="main" style={{ position: "relative", zIndex: 1, minHeight: "100vh" }}>
+            <div className="main" style={{ position: "relative", minHeight: "100vh" }}>
                 <Navbar />
                 <Home />
                 <Diplomacy />
