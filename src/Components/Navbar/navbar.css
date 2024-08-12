@@ -1,6 +1,8 @@
 /* navbar.css */
 
-
+.nav {
+    margin-bottom: 3rem;
+}
 /* General styles for navigation */
 .nav-logo {
     margin-right: auto;
