@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel1 from "../../Carousel1";
+import Carousel1 from "../../../Carousel1";
 // import Carousel2 from "../../Carousel2";
 import "./Past_Sponsors.css"
 import AOS from 'aos';

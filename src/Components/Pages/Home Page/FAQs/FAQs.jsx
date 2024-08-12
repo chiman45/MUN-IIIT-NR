@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './FAQs.css';
-import arrow from '../../../images/arrow.svg';
+import arrow from '../../../../images/arrow.svg';
 
 const FAQs = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);

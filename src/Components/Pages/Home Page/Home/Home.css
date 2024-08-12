@@ -1,5 +1,5 @@
 .home {
-    background-image: url('../../../Assets/Images/Background/MUN Background Image.png');
+    background-image: url('../../../../Assets/Images/Background/MUN Background Image.png');
     height: 100svh; /* Full viewport height */
     width: 100%;
     background-size: cover;
@@ -22,7 +22,7 @@
 .buildings {
     position: absolute;
     bottom: 0;
-    background: url('../../../Assets/Parallax/Buildings.png');
+    background: url('../../../../Assets/Parallax/Buildings.png');
     height: 70%;
     width: 100%;
     background-size: cover;

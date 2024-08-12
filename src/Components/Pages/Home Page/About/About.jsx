@@ -1,5 +1,5 @@
 import React from 'react';
-import CampusImage from '../../../images/Campus.png';
+import CampusImage from '../../../../images/Campus.png';
 import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -1,9 +1,9 @@
 import React from 'react';
 import './ContactUs.css';
-import IIITlogo from '../../../images/IIITlogo.png'
-import SAClogo from '../../../images/SAClogo.png'
-import email from '../../../images/email.svg'
-import phone from '../../../images/phone.svg'
+import IIITlogo from '../../../../images/IIITlogo.png'
+import SAClogo from '../../../../images/SAClogo.png'
+import email from '../../../../images/email.svg'
+import phone from '../../../../images/phone.svg'
 
 
 const ContactUs = () => {

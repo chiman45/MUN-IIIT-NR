@@ -1,9 +1,9 @@
 import React from "react";
 import './Home.css';
-import Logo from "../../../Assets/Parallax/MUN.gif";
-import Earth from "../../../Assets/Parallax/Earth.png";
-import Flag_Left from "../../../Assets/Parallax/Flag_left.png";
-import Flag_Right from "../../../Assets/Parallax/Flag_right.png";
+import Logo from "../../../../Assets/Parallax/MUN.gif";
+import Earth from "../../../../Assets/Parallax/Earth.png";
+import Flag_Left from "../../../../Assets/Parallax/Flag_left.png";
+import Flag_Right from "../../../../Assets/Parallax/Flag_right.png";
 import { Zoom } from "react-awesome-reveal";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

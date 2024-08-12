@@ -1,5 +1,5 @@
 import React from 'react';
-import MUNImage from '../../../images/MUN.jpg';
+import MUNImage from '../../../../images/MUN.jpg';
 import './Diplomacy.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
