@@ -1,12 +1,12 @@
 import React from 'react'
 import "./MainPage.css"
 import { left } from '@popperjs/core'
-import Navbar from "../../../Navbar/Navbar.jsx";
+// import Navbar from "../../../Navbar/Navbar.jsx";
 
 const MainPage = () => {
   return (
     <div className='main-page'>
-        <Navbar/>
+        {/* <Navbar/> */}
         <br></br>
         <br></br>
         <br></br>
@@ -17,7 +17,6 @@ const MainPage = () => {
             <h1>PAST EVENT</h1>
         </div>
         <br></br>
-        <div className="building">
             <br></br>
         <div className="content">
             <div className="cont-heading">
@@ -30,7 +29,39 @@ const MainPage = () => {
             Enim, repellendus quo consequatur cum dolore assumenda nostrum illum numquam voluptas blanditiis eveniet totam illo dolor quidem doloribus velit tenetur sint quae eaque! Corporis iste quos nulla consectetur facilis vitae?
             Qui in aperiam quae? Beatae numquam amet praesentium aperiam. Debitis excepturi quam hic provident blanditiis minima, animi ut minus id, eligendi repellendus possimus, tenetur quis nisi in asperiores sapiente vel!
             </p>
-        </div>
+            <div className="committees-heading">
+                <h3>COMMITTEES</h3>
+            </div>
+            <div className="committees-names">
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+                <div className="names">
+                    <div className="com-name"></div>
+                    <h3>NAME</h3>
+                </div>
+            </div>
         </div>
     </div>
   )

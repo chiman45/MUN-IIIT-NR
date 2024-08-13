@@ -5,6 +5,7 @@ const PastEvents = () => {
   return (
     <div>
         <MainPage/>
+        {/* <Committees/> */}
     </div>
   )
 }
