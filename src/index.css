@@ -1,10 +1,14 @@
+@font-face {
+  font-family: Mont;
+  src: url('./Assets/Fonts/Montserrat-VariableFont_wght.ttf');
+}
 *{
     margin:0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "Anton", sans-serif;
+    font-family: Mont;
 }
 @font-face{
   font-family: Cinzel;

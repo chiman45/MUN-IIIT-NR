@@ -10,6 +10,7 @@ import Home from "./Home/Home.jsx";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { NeatGradient } from "@firecms/neat";
+import './HomePage.css'
 
 AOS.init({ once: true }); // Initialize AOS
 
@@ -83,13 +84,17 @@ export default function App() {
             />
             <div className="main" style={{ position: "relative", minHeight: "100vh" }}>
                 <Navbar />
-                <Home />
+                <div className="bg1">
+                <Home />       
                 <Diplomacy />
                 <About />
+                </div>
+                <div className="bg2">
                 <PastEvents />
                 <Past_Sponsors />
                 <FAQs />
                 <ContactUs />
+                </div>
             </div>
         </div>
     );

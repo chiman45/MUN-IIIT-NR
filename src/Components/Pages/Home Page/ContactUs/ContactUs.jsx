@@ -15,9 +15,9 @@ const ContactUs = () => {
         <div className="contact-us-item">
           <h2>Email</h2>
           <p><img src={email} alt="" /> mun@iiitnr.edu.in</p>
-          <h2>Phone</h2>
+          {/* <h2>Phone</h2>
           <p><img src={phone} alt="" /> +91 12345 67890</p>
-          <p><img src={phone} alt="" /> +91 12345 67890</p>
+          <p><img src={phone} alt="" /> +91 12345 67890</p> */}
         </div>
         <div className="contact-us-item">
           <h2>Social Handles</h2>

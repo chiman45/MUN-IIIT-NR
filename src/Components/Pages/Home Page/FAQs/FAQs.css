@@ -47,10 +47,11 @@
     border: 1px solid #F3DCFF80;
     padding: 16px 30px;
     border-radius: 20px;
-    background: radial-gradient(54.08% 117.18% at 0% 88.89%, rgba(199, 97, 255, 0.15) 0%, rgba(128, 81, 153, 0) 100%),
+    /* background: radial-gradient(54.08% 117.18% at 0% 88.89%, rgba(199, 97, 255, 0.15) 0%, rgba(128, 81, 153, 0) 100%),
         radial-gradient(72.27% 168.29% at 101.59% 79.63%, rgba(184, 52, 255, 0.2) 0%, rgba(214, 140, 255, 0) 100%),
-        linear-gradient(0deg, #290040, #290040);
+        linear-gradient(0deg, #290040, #290040); */
     font-size: 18px;
+    background: transparent;
 }
 
 .question img {

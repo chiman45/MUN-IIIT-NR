@@ -80,7 +80,9 @@ export default function Home() {
                 </Zoom>
             </div>
             <div className="earth" id="earth">
+                <div className="earth-img">
                 <img src={Earth} alt="Earth"  data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="800"/>
+                </div>
                 <div className="flags">
                     <div className="flag1">
                         <img src={Flag_Left} alt="Flag Left" data-aos="fade-right"

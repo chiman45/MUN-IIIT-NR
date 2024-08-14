@@ -18,7 +18,7 @@
     border-radius: 8px;
     color: white;
     background-color: transparent;
-    border: 1px solid #D587FF;
+    border: 3px solid #006765;
     margin-left: auto;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
