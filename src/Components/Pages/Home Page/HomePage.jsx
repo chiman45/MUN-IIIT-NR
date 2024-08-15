@@ -84,17 +84,13 @@ export default function App() {
             />
             <div className="main" style={{ position: "relative", minHeight: "100vh" }}>
                 <Navbar />
-                <div className="bg1">
                 <Home />       
                 <Diplomacy />
                 <About />
-                </div>
-                <div className="bg2">
                 <PastEvents />
                 <Past_Sponsors />
                 <FAQs />
                 <ContactUs />
-                </div>
             </div>
         </div>
     );

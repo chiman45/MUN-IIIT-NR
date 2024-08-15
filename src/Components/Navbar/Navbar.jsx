@@ -104,15 +104,15 @@ function DrawerAppBar(props) {
                 />
               </IconButton>
             </div>
-            <div className="nav-logo">
+            {/* <div className="nav-logo">
               <img src={Logo} alt="Logo" />
-            </div>
+            </div> */}
             <Box sx={{ display: { xs: 'none', sm: 'flex', background: "transparent",
                     borderRadius: "20px",
                     boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
                     backdropFilter: "blur(5.4px)",
                     webkitBackdropFilter: "blur(5.4px)",
-                     marginRight:"auto", gap:"2vh",padding:"0.5vh",border: "3px solid #006765"} }}>
+                     marginRight:"auto", gap:"2vh",padding:"0.5vh",border: "3px solid #006765",margin:"auto"} }}>
               {navItems.map((item) => (
                 <Button 
                   key={item} 

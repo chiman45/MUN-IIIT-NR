@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Mont;
+    src: url('../../../../Assets/Fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Anton;
+    src: url('../../../../Assets/Fonts/Anton-Regular.ttf');
+}
+
 .home {
-    /* background-image: url('../../../../Assets/Images/Background/MUN Background Image.png'); */
+    background-image: url('../../../../Assets/Images/Background/MUN Background Image.png');
     height: 100svh; /* Full viewport height */
     width: 100%;
     background-size: cover;
@@ -7,6 +17,8 @@
     flex-direction: column;
     position: relative;
     overflow: hidden; /* Prevent overflow */
+    z-index: 10;
+    font-family: Anton;
 }
 
 .home-text {
@@ -23,9 +35,8 @@
 .buildings {
     position: absolute;
     bottom: 0;
-    /* background: url('../../../../Assets/Parallax/Buildings.png'); */
+    background: url('../../../../Assets/Parallax/Buildings.png');
     /* background: url('../../../../Assets/Parallax/Transparent_Building.png'); */
-    mix-blend-mode: color;
     height: 70%;
     width: 100%;
     background-size: cover;
@@ -54,16 +65,16 @@
 
 .earth {
     position: absolute;
-    z-index: 2; /* Ensure earth is above buildings but below MUN_gif */
+    z-index: 10; /* Ensure earth is above buildings but below MUN_gif */
     top: 65vh; /* Adjust as needed */
     width: 100%;
     height: 100%;
+    mix-blend-mode:luminosity;
 }
 
 .earth img {
     width: 100%;
-    transition: transform 0.3s ease-out;
-    mix-blend-mode:color;  /* Smooth zoom transition */
+    transition: transform 0.3s ease-out;  /* Smooth zoom transition */
 }
 
 .flags{
@@ -110,10 +121,10 @@
     .MUN_gif img {
         height: 12vh;
     }
-    .home h2 {
+    .home h1 {
         font-size: 22px;
     }
-    .home h6 {
+    .home h5 {
         font-size: 12px;
     }
     /* .earth{
