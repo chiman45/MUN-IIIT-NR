@@ -140,7 +140,7 @@ function DrawerAppBar(props) {
               display: { xs: 'block', sm: 'none' },
               '& .MuiDrawer-paper': {
                 boxSizing: 'border-box',
-                width: "55%",
+                width: "100%",
                 background: "rgba(88, 0, 140, 0.6)",
                 boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
                 backdropFilter: "blur(6px)",
