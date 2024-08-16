@@ -1,66 +1,23 @@
 import React from 'react'
 import "./MainPage.css"
 import { left } from '@popperjs/core'
-// import Navbar from "../../../Navbar/Navbar.jsx";
 
 const MainPage = () => {
   return (
-    <div className='main-page'>
-        {/* <Navbar/> */}
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-
-        <div className="heading">
-            <h1>PAST EVENT</h1>
+    <div className="past-main">
+        <div className="building">
         </div>
-        <br></br>
-            <br></br>
-        <div className="content">
-            <div className="cont-heading">
-                <h2>MUNC 3.0</h2>
-                <h3>ABOUT</h3>
+        <div className="main-content">
+            <div className="head">
+                <h5>SHOWCASING</h5>
+                <h1>PAST EVENTS</h1>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quasi iusto itaque facilis sequi et ut ratione optio ab iure quisquam ea, tempore nisi consequatur voluptas minima? Itaque, rem animi!
-            Ea facilis et eveniet iure quibusdam sequi quam placeat nulla vitae quisquam voluptas, voluptates mollitia perspiciatis. Non pariatur excepturi quia, iste, fuga quaerat atque voluptas nesciunt aspernatur asperiores id ducimus.
-            Veniam libero quod itaque aspernatur doloremque repellendus sapiente fugit et deserunt minima atque sunt fugiat ullam, odit nulla? Quis et praesentium ratione soluta numquam nemo vel, nam vitae vero fugiat!
-            Enim, repellendus quo consequatur cum dolore assumenda nostrum illum numquam voluptas blanditiis eveniet totam illo dolor quidem doloribus velit tenetur sint quae eaque! Corporis iste quos nulla consectetur facilis vitae?
-            Qui in aperiam quae? Beatae numquam amet praesentium aperiam. Debitis excepturi quam hic provident blanditiis minima, animi ut minus id, eligendi repellendus possimus, tenetur quis nisi in asperiores sapiente vel!
-            </p>
-            <div className="committees-heading">
-                <h3>COMMITTEES</h3>
+            <div className="content-box">
+                <div className="sub-head">MUNC 3.0</div>
+                <div className="sub-sub-head">ABOUT</div>
+                <div className="about-munc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
-            <div className="committees-names">
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
-                <div className="names">
-                    <div className="com-name"></div>
-                    <h3>NAME</h3>
-                </div>
             </div>
         </div>
     </div>
