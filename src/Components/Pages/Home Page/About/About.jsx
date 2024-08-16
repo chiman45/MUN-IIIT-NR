@@ -11,7 +11,7 @@ const About = () => {
     <div>
 <div className="contain div" id="About Us">
         <h1 className="text-center" data-aos="fade-up"
-     data-aos-duration="6000">ABOUT IIITNR</h1>
+     data-aos-duration="6000" style={{fontSize:"2.2rem"}}>About IIITNR</h1>
       <div className="mt-5 about-container">
         <div className="col-md-6 text-center img-container" data-aos="fade-up"  data-aos-duration="3000">
           <img src={CampusImage} alt="Campus" className="custom-image" />
