@@ -18,7 +18,9 @@
   src:url("./Assets/Fonts/Cinzel-Bold.otf");
 }
 
-
+body{
+  background-color: #190028;
+}
 
 
 body::-webkit-scrollbar {

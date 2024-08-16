@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { NeatGradient } from "@firecms/neat";
 import './HomePage.css'
+import Load from "../../Load_Page/Load.jsx";
 
 AOS.init({ once: true }); // Initialize AOS
 
@@ -68,9 +69,16 @@ export default function App() {
         };
     }, [canvasRef.current]);
 
+    const [loading,setLoading] = React.useState(true);
+    React.useEffect(()=>{
+        setTimeout(()=>{
+            setLoading(false);
+        },6000)
+    },[loading])
+
     return (
         <div style={{ position: "relative", height: "100vh" }}>
-            <canvas
+            {/* <canvas
                 className={bgColor}
                 style={{
                     position: "fixed", // Keep the canvas fixed
@@ -81,8 +89,9 @@ export default function App() {
                     zIndex: -1, // Behind other content
                 }}
                 ref={canvasRef}
-            />
-            <div className="main" style={{ position: "relative", minHeight: "100vh" }}>
+            /> */}
+            {loading && <Load/>}
+            {loading===false && <div className="main" style={{ position: "relative", minHeight: "100vh" }}>
                 <Navbar />
                 <Home />       
                 <Diplomacy />
@@ -91,7 +100,7 @@ export default function App() {
                 <Past_Sponsors />
                 <FAQs />
                 <ContactUs />
-            </div>
+            </div>}
         </div>
     );
 }

@@ -43,16 +43,15 @@
 }
 
 p {
-    font-family: 'Crimson Pro', 'sans-serif';
+    font-family: Mont;
     font-weight: 200;
-    text-align: center;
-    width: 80%;
+    text-align: justify;
+    width: 90%;
     margin: auto;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-size: 20px;
     line-height: 27.78px;
     color: white;
-    z-index: 4;
 }
 
 @media only screen and (max-width: 1200px) {

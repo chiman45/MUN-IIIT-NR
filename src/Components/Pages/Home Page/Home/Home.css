@@ -35,7 +35,8 @@
 .buildings {
     position: absolute;
     bottom: 0;
-    background: url('../../../../Assets/Parallax/Buildings.png');
+    background: url('../../../../Assets/Parallax/Building_final.png');
+    /* background: url('../../../../Assets/Parallax/Buildings.png'); */
     /* background: url('../../../../Assets/Parallax/Transparent_Building.png'); */
     height: 70%;
     width: 100%;
