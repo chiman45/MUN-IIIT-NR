@@ -26,6 +26,10 @@
     margin: 10px;
 }
 
+.contact-us-item a {
+    margin-right: 0.3rem;
+}
+
 .contact-us-item h2 {
     font-family: 'Crimson Pro', serif;
     font-size: 30px;
@@ -48,6 +52,9 @@
     text-decoration: none;
 }
 
+/* .map {
+    /* margin-right: 3rem; */
+ 
 .contact-us-item a:hover {
     text-decoration: underline;
 }

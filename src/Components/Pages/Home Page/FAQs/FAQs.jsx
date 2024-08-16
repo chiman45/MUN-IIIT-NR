@@ -23,13 +23,15 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q1' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q1')}
             >
-              Question 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
+              1: What is Model United Nations?
+              {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
-              </div>
+              </div> */}
+              <img src={arrow} alt="arrow"/>
+
             </div>
             <div className={`answer ${activeQuestion === 'q1' ? 'show' : ''}`} id="q1">
-              Answer 1: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              Model United Nations (also Model UN or MUN) is an academic simulation of the United Nations that aims to educate and encourage participants to discuss about major issues concerning the world, topics in international relations, diplomacy and the United Nations agenda.
             </div>
           </div>
 
@@ -41,13 +43,15 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q2' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q2')}
             >
-              Question 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
+              2: What are the dates of MUN IIIT-NR 4.0?
+              {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
-              </div>
+              </div> */}
+              <img src={arrow} alt="arrow"/>
+
             </div>
             <div className={`answer ${activeQuestion === 'q2' ? 'show' : ''}`} id="q2">
-              Answer 2: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              MUNC' 4.0, IIIT-NR is a two day conference and will be tentatively held in the month of April of 2025.
             </div>
           </div>
 
@@ -59,13 +63,15 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q3' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q3')}
             >
-              Question 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
+              3: Who can register for MUN, IIIT-NR?
+              {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
-              </div>
+              </div> */}
+              <img src={arrow} alt="arrow"/>
+
             </div>
             <div className={`answer ${activeQuestion === 'q3' ? 'show' : ''}`} id="q3">
-              Answer 3: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              All students with a valid ID card of their high school or college can register for IIIT-NR MUN. However, exceptional cases are sometimes made for recent graduates.
             </div>
           </div>
 
@@ -82,13 +88,15 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q4' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q4')}
             >
-              Question 4: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
+              4: What is the venue location?
+              {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
-              </div>
+              </div> */}
+              <img src={arrow} alt="arrow"/>
+
             </div>
             <div className={`answer ${activeQuestion === 'q4' ? 'show' : ''}`} id="q4">
-              Answer 4: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              Model United Nations IIIT-NR will be held on the campus of IIIT Naya Raipur.
             </div>
           </div>
 
@@ -101,13 +109,15 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q5' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q5')}
             >
-              Question 5: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
+              5: What to expect as a 1st time MUNner?
+              {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
-              </div>
+              </div> */}
+              <img src={arrow} alt="arrow"/>
+
             </div>
             <div className={`answer ${activeQuestion === 'q5' ? 'show' : ''}`} id="q5">
-              Answer 5: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              An intellectual challenge! Follow basic steps, which include reading your study guides, being well prepared on your agendas, and being ready to speak during the conference. Take multiple opportunities and participate during the moderated and unmoderated caucus. Focus on managing your country's interests and speaking clearly.
             </div>
           </div>
 
@@ -120,13 +130,14 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q6' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q6')}
             >
-              Question 6: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, qui!
-              <div className='circle'>
-                <img src={arrow} alt="arrow" />
-              </div>
+              6: How do I apply to IIIT-NR MUN?
+              {/* <div className='circle'>
+                
+              </div> */}
+              <img src={arrow} alt="arrow"/>
             </div>
             <div className={`answer ${activeQuestion === 'q6' ? 'show' : ''}`} id="q6">
-              Answer 6: Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              Delegate and chair applications for IIIT-NR MUN 2024 will be out soon.
             </div>
           </div>
         </div>
