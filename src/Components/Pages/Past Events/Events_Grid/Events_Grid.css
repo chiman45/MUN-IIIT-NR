@@ -1,0 +1,11 @@
+.grid{
+    height:100svh;
+    width: 75%;
+    background-image: url('../../../../Assets/Images/Grid/grid.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

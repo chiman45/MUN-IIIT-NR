@@ -1,0 +1,57 @@
+.committee{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+}
+
+.committee .head{
+    color:white;
+    font-size: 1.7rem;
+    font-family: Mont;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    text-align: start;
+}
+
+.committee-contain{
+    width: 100%;
+    display: flex;
+    gap:5vh;
+    margin: auto;
+    overflow-x: scroll;
+    
+}
+
+.committee-contain::-webkit-scrollbar{
+    display: none;
+}
+.committee-main{
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.left-arrow{
+    width: 12.5%;
+    display: none;
+}
+.right-arrow{
+    width: 12.5%;
+    display: none;
+}
+
+@media (max-width:1270px) {
+    .left-arrow{
+        display: block;
+    }
+    .right-arrow{
+        display: block;
+    }
+}
