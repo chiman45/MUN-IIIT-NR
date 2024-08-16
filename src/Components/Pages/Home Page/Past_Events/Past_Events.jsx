@@ -15,7 +15,8 @@ export default function PastEvents(){
             <div className="overlay">
                 <Link to="/past-events">
                 <button className="button">Know more</button>
-                </Link></div>
+                </Link>
+                </div>
             
                 </div>
             </div>            
