@@ -4,8 +4,11 @@ import IIITlogo from '../../../../images/IIITlogo.png'
 import SAClogo from '../../../../images/SAClogo.png'
 import email from '../../../../images/email.svg'
 import phone from '../../../../images/phone.svg'
-
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import XIcon from '@mui/icons-material/X';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 const ContactUs = () => {
   return (
     <div className="contact-us-container" id="Contact Us">
@@ -14,18 +17,24 @@ const ContactUs = () => {
       <div className="contact-us-flex">
         <div className="contact-us-item">
           <h2>Email</h2>
-          <p><img src={email} alt="" /> mun@iiitnr.edu.in</p>
+          <p> <MailOutlineIcon/>&nbsp;mun@iiitnr.edu.in</p>
           {/* <h2>Phone</h2>
           <p><img src={phone} alt="" /> +91 12345 67890</p>
           <p><img src={phone} alt="" /> +91 12345 67890</p> */}
-        </div>
-        <div className="contact-us-item">
+          <br></br>
           <h2>Social Handles</h2>
-          <p><a href="https://instagram.com">Instagram</a></p>
-          <p><a href="https://linkedin.com">LinkedIn</a></p>
-          <p><a href="https://twitter.com">Twitter</a></p>
-          <p><a href="https://facebook.com">Facebook</a></p>
+          <a href="https://instagram.com"><InstagramIcon fontSize='large'/></a>
+          <a href="https://linkedin.com"><LinkedInIcon fontSize='large'/></a>
+          <a href="https://twitter.com"><FacebookIcon fontSize='large'/></a>
+          <a href="https://facebook.com"><XIcon fontSize='large'/></a>
         </div>
+        {/* <div className="contact-us-item">
+          <h2>Social Handles</h2>
+          <a href="https://instagram.com"><InstagramIcon fontSize='large'/></a>
+          <a href="https://linkedin.com"><LinkedInIcon fontSize='large'/></a>
+          <a href="https://twitter.com"><FacebookIcon fontSize='large'/></a>
+          <a href="https://facebook.com"><XIcon fontSize='large'/></a>
+        </div> */}
         <div className="contact-us-item">
           <h2>Address</h2>
           <p>IIIT–Naya Raipur</p>
