@@ -1,9 +1,8 @@
-import React from "react"
-import './Load.css'
+import { dotPulse } from 'ldrs';
+import React from "react";
 import { TypeAnimation } from 'react-type-animation';
-import { colors } from "@mui/material";
 import logo from '../../Assets/Parallax/MUN.gif';
-import { dotPulse } from 'ldrs'
+import './Load.css';
 
 dotPulse.register()
 
@@ -19,7 +18,7 @@ function Load(){
         <div className="load">
               <TypeAnimation
       sequence={[
-        'MODEL UNITED NATIONS\n IIIT-Naya Raipur',
+        'MODEL UNITED NATIONS\n',
         1000,
       ]}
       wrapper="span"

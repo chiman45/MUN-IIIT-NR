@@ -33,14 +33,17 @@ font-family: Cenzil;
 .button{
     height:7vh;
     width:20%;
+    border: 2px solid #D587FF;
     border-radius: 10px;
-    background: #F3DCFF;
+    background-color: transparent;
+    color: #F3DCFF;
     position: absolute;
     bottom:3vh;
     font-size: 26px;
     font-weight: 800;
     z-index: 2;
 }
+
 .overlay:hover{
     opacity:1;
     transition:0.2s ease-in 0s;
