@@ -15,7 +15,7 @@
 .nav-button {
     width: 120px;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 40px !important;
     color: white;
     background-color: transparent;
     border: 3px solid #006765;

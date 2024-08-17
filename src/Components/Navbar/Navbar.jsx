@@ -1,7 +1,6 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
@@ -12,10 +11,10 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Logo from "../../Assets/logo/Logo.png";
-import "./navbar.css";
 import Hamburger from 'hamburger-react';
+import PropTypes from 'prop-types';
+import * as React from 'react';
+import "./navbar.css";
 
 const navItems = ['About Us', 'Past Event', 'Team', 'FAQ', 'Contact Us'];
 
@@ -54,7 +53,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <div className="ham-head" style={{ display: "flex" }}>
-        <Typography variant="h6" sx={{ my: 2, marginLeft: "auto", marginRight: "auto", fontFamily: "Cinzel" }}>
+        <Typography variant="h6" sx={{ my: 2, marginLeft: "auto", marginRight: "auto", fontFamily: "Montserrat" }}>
           MUN
         </Typography>
       </div>
@@ -63,7 +62,7 @@ function DrawerAppBar(props) {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} href={`#${item}`} onClick={() => setOpen(prev => !prev)}>
-              <ListItemText primary={item} disableTypography={true} sx={{ fontFamily: "Cinzel" }} />
+              <ListItemText primary={item} disableTypography={true} sx={{ fontFamily: "Montserrat" }} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -116,7 +115,7 @@ function DrawerAppBar(props) {
               {navItems.map((item) => (
                 <Button 
                   key={item} 
-                  sx={{ color: navlistColor, fontFamily: "Cinzel"/* From https://css.glass */ }} // Use the navlistColor state
+                  sx={{ color: navlistColor, fontFamily: "Montserrat"/* From https://css.glass */ }} // Use the navlistColor state
                   href={`#${item}`}
                 >
                   {item}
