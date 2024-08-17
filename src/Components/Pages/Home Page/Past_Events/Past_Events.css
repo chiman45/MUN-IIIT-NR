@@ -34,12 +34,18 @@ font-family: Cenzil;
     height:7vh;
     width:20%;
     border-radius: 10px;
-    background: #F3DCFF;
+    background: transparent;
+    color: transparent;
     position: absolute;
     bottom:3vh;
     font-size: 26px;
     font-weight: 800;
     z-index: 2;
+}
+.button:hover {
+    border: 2px solid #D587FF;
+    color: #F3DCFF;
+    background-color: transparent;
 }
 .overlay:hover{
     opacity:1;
