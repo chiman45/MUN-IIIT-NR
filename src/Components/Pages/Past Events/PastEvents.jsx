@@ -3,6 +3,7 @@ import MainPage from './Main Page/MainPage'
 import Committee from './Committee/Committee'
 import Events_Grid from './Events_Grid/Events_Grid'
 import './PastEvents.css'
+import Testimonials from './Testimonials/Testimonials'
 
 const PastEvents = () => {
   return (
@@ -10,6 +11,7 @@ const PastEvents = () => {
         <MainPage/>
         <Committee/>
         <Events_Grid/>
+        <Testimonials/>
     </div>
   )
 }
