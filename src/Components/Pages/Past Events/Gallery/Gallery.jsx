@@ -57,7 +57,7 @@ const Gallery = () => {
                 width: '100%', 
                 padding:'0.7rem',
                 height: '16rem',
-                boxSizing:'border-box',
+      
               }}>
             <img 
               src={image.img} 

@@ -9,15 +9,6 @@
 }
 
 
-.About-Gal .building{
-    position: absolute;
-    bottom: 0;
-    background-image: url('../../../../Assets/Parallax/Building_final.png');
-    background-size: cover;
-    height:70%;
-    width:100%;
-    z-index: 1;
-}
 
 .About-Gal .main-content{
     height:100%;
@@ -34,24 +25,14 @@
     justify-content: center;
 }
 
-.About-Gal .main-content .head h1{
-    font-family: Anton;
-    letter-spacing: 0.3rem;
-}
 
-.About-Gal .main-content .head h5{
-    font-family: Mont;
-    margin-top: 15vh;
-    display: flex;
-    justify-content: flex-start;
-}
 
 
 .About-Gal .content-box{
     position: relative;
     z-index: 3;
     color:white;
-    margin-top: 30vh;
+    /* margin-top: 10vh; */
 }
 
 .content-box .sub-head{
@@ -65,6 +46,7 @@
     font-family: Mont;
     font-weight: 600;
     margin-top: 15px;
+    margin-bottom: 3vh;
 }
 
 .about-munc{
