@@ -21,12 +21,14 @@ import Taran from "../Assets/Team/24-25/Taran_Pal_Singh.jpg"
 import Vaishnavi from "../Assets/Team/24-25/Vaishnavi Shrivastava.jpg"
 import Yash from "../Assets/Team/24-25/Yash Mohan Joshi.jpg"
 import Divyansh from "../Assets/Team/24-25/Divyansh.jpg"
-
+import Shashank from "../Assets/Team/24-25/Shashank Mishra.jpeg"
+import Kaushal from "../Assets/Team/24-25/Kaushal Ranjan.png"
 
 const TeamData={
     2024:{
         Generals:[
             {
+                img:Shashank,
                 name:"Shashank Mishra",
                 post: "Secretary General",
             },
@@ -39,7 +41,7 @@ const TeamData={
         core:[
             {
                 img: Divyansh,   
-                name:"Divyansh Singh Chauhan",
+                name:"Divyansh Singh",
                 post: "Core",
             },
             {
@@ -48,12 +50,12 @@ const TeamData={
                 post:"Core",
             },
             {
-                
-                name:"Shashank Mishra",
+                img: Kaushal,
+                name:"Kaushal Ranjan",
                 post: "Core",
             },
             {
-                name:"Shashank Mishra",
+                name:"Anushka Ekka",
                 post: "Core",
             },
         ],

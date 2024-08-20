@@ -112,15 +112,22 @@ function DrawerAppBar(props) {
                     backdropFilter: "blur(5.4px)",
                     webkitBackdropFilter: "blur(5.4px)",
                      marginRight:"auto", gap:"2vh",padding:"0.5vh",border: "3px solid #006765",margin:"auto"} }}>
-              {navItems.map((item) => (
+              {/* {navItems.map((item) => (
                 <Button 
                   key={item} 
-                  sx={{ color: navlistColor, fontFamily: "Montserrat"/* From https://css.glass */ }} // Use the navlistColor state
+                  sx={{ color: navlistColor, fontFamily: "Montserrat"}}
                   href={`#${item}`}
                 >
                   {item}
                 </Button>
-              ))}
+              ))} */}
+                 <ul style={{display:'flex', justifyContent:"space-between", listStyle:"none", gap:"2.5vh", margin:"1vh", paddingLeft:"0"}} className='nav-list'>
+              <li>About Us</li>
+              <li>Past Events</li>
+              <li>Team</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+            </ul>
             </Box>
             {/* <button className='nav-button'>Contact Us</button> */}
           </Toolbar>

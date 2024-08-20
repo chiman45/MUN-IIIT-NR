@@ -12,7 +12,7 @@ function TeamMember(props) {
       ref={ref} // to use toggle method like ref.curret.toggle()
       // if you pass isFlipped prop component will be controlled component.
       // and other props, which will go to div
-      style={{ width: '300px', height: '400px'}} /// these are optional style, it is not necessary
+      style={{ width: '300px', height: '400px', cursor:"pointer"}} /// these are optional style, it is not necessary
   >
     <FrontSide style={{ backgroundColor: '#41669d'}} >
       <div className="team-container-front">
@@ -38,8 +38,8 @@ function TeamMember(props) {
 </svg>
         </div>
         <div className="team-detail">
-            <h4>NAME</h4>
-            <h6>DESIGNATION</h6>
+            <h4>{props.name}</h4>
+            <h6>{props.post}</h6>
         </div>
       </div>
     </BackSide>

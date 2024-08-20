@@ -69,12 +69,21 @@ export default function App() {
         };
     }, [canvasRef.current]);
 
-    const [loading,setLoading] = React.useState(true);
+    let [loading,setLoading] = React.useState(true);
     React.useEffect(()=>{
-        setTimeout(()=>{
+        const timer2 = setTimeout(()=>{
             setLoading(false);
         },6000)
-    },[loading])
+        return () => clearTimeout(timer2);
+    },[loading]);
+
+    React.useState(()=>{
+        document.body.style.overflow = 'hidden';
+        const timer = setTimeout(()=>{
+            document.body.style.overflow = 'visible';
+        },5000)
+        return () => clearTimeout(timer);
+    },[])
 
     return (
         <div style={{ position: "relative", height: "100vh" }}>

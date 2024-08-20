@@ -1,0 +1,28 @@
+.test-cont {
+    height: 100svh;
+}
+
+.test-head {
+    color: white;
+    padding-left: 11%;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between the cards */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 1.3rem;
+}
+
+.testimonials > .MuiCard-root {
+    flex: 1 1 calc(40% - 1rem); /* Adjusted to 40% width */
+    max-width: calc(40% - 1rem); /* Ensure cards don’t exceed 40% width */
+}
+
+@media (max-width: 960px) {
+    .testimonials > .MuiCard-root {
+        flex: 1 1 100%; /* Full width on smaller screens */
+        max-width: 100%; /* Ensure cards take up full width */
+    }
+}
