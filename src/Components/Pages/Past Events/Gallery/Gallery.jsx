@@ -57,6 +57,10 @@ const Gallery = () => {
                 width: '100%', 
                 padding:'0.7rem',
                 height: '16rem',
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 9df8fd55f600809e85e5e1fa4a1e8715bda8e591
               }}>
             <img 
               src={image.img} 
