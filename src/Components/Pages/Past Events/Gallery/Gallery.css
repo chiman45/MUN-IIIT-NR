@@ -1,15 +1,15 @@
 .heading{
-    font-size: 3vw;
+    font-size: 1.8rem;
     color:#FFFFFF;
-    font-weight: 900;
+    font-weight: 600;
     font-family: Mont;
     width: 80%;
     text-align: center;
 }
 .text{
-    width: 54%;
-    margin-bottom: 2.5%;
-    margin-top: 2%;
+    width: 56%;
+ margin-bottom:3% ;
+    margin-top: 3%;
 }
 .slick-dots {
     bottom: -30px; /* Adjust as needed */

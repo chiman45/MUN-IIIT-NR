@@ -12,7 +12,6 @@ const Gallery = () => {
     autoplaySpeed:1500,
     autoplay:true,
     dots: true,
-    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -49,7 +48,7 @@ const Gallery = () => {
   return (
     <div className='Slider'>
       <div className='text'><div className='heading'>PHOTO GALLERY</div></div>
-    <div style={{ width: '86vw', margin: '0 auto'  }}  >
+    <div style={{ width: '80vw', margin: '0 auto'  }}  >
       <Slider {...settings}>
         {GalleryImages.map((image, index) => (
           <div key={index}   >
@@ -71,7 +70,6 @@ const Gallery = () => {
                 height:'100%',
                 objectFit: 'cover',
                 border: '0.1rem solid #7506c2',
-                boxSizing:'border-box',
               }} 
             />
             </div>
