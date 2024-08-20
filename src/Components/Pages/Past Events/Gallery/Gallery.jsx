@@ -48,7 +48,7 @@ const Gallery = () => {
   return (
     <div className='Slider'>
       <div className='text'><div className='heading'>PHOTO GALLERY</div></div>
-    <div style={{ width: '86vw', margin: '0 auto'  }}  >
+    <div style={{ width: '80vw', margin: '0 auto'  }}  >
       <Slider {...settings}>
         {GalleryImages.map((image, index) => (
           <div key={index}   >
