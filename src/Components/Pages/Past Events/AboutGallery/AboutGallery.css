@@ -32,7 +32,7 @@
     position: relative;
     z-index: 3;
     color:white;
-    /* margin-top: 10vh; */
+    margin-top: 7vh;
 }
 
 .content-box .sub-head{
@@ -76,28 +76,19 @@
 }
 
 @media (max-width:630px) {
-    .About-Gal .content-box{
-        margin-top: 25vh;
-    }
+ 
         
     .about-munc{
         line-height: 20.78px;
     }
 }
 
-@media (max-width:380px) {
-    .About-Gal .content-box{
-        margin-top: 10vh;
-    }
-}
+
 
 @media (max-height:620px) {
     .about-munc{
         font-size: 0.9rem;
         line-height: 17.78px;
-    }
-    .About-Gal .content-box{
-        margin-top: 25vh;
     }
 }
 
