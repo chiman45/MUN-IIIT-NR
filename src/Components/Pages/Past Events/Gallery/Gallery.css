@@ -3,11 +3,11 @@
     color:#FFFFFF;
     font-weight: 600;
     font-family: Mont;
-    width: 80%;
-    text-align: center;
+    text-align: left;
 }
 .text{
-    width: 56%;
+  margin:auto;
+ width: 75%;
  margin-bottom:3% ;
     margin-top: 3%;
 }
