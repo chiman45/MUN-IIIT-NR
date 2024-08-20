@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Anton;
+    src: url('../../../../Assets/Fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+    font-family: Mont;
+    src: url('../../../../Assets/Fonts/Montserrat-VariableFont_wght.ttf');
+}
+.team-main{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.category {
+    gap: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid transparent; /* Adjust thickness as needed */
+    border-image: linear-gradient(90deg, rgba(41, 0, 64, 0) 0%, #FFFFFF 45.4%, rgba(41, 0, 64, 0) 100%);
+    border-image-slice: 1;
+    margin-bottom: 15vh;
+}
+
+.team-heading{
+    font-size: 4vw;
+    color: white;
+    font-family: Mont;
+    font-weight: 600;
+    margin: auto;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:4vh;
+    margin-bottom: 4vh;
+}
+
+@media (max-width:630px) {
+    .team-heading{
+        font-size: 30px;
+    }
+}
+

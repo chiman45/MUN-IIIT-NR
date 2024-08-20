@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Diplomacy from "./Diplomacy/Diplomacy";
 import About from "./About/About";
 import FAQs from "./FAQs/FAQs";
-import ContactUs from "./ContactUs/ContactUs";
+import ContactUs from "../../ContactUs/ContactUs.jsx";
 import PastEvents from "./Past_Events/Past_Events.jsx";
 import Past_Sponsors from "./Past_Sponsors/Past_Sponsors.jsx";
 import Navbar from "../../Navbar/Navbar.jsx";

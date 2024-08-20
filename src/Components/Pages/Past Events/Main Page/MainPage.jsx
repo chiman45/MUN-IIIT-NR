@@ -16,8 +16,7 @@ const MainPage = () => {
                 <div className="sub-head">MUNC 3.0</div>
                 <div className="sub-sub-head">ABOUT</div>
                 <div className="about-munc">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-            </div>
+                MUN 3.0 was a landmark national-level inter-MUN conference, bringing together over 270 delegates from across India. Featuring five dynamic committees—UNFCCC, UNHRC, AIPPM, Lok Sabha, and UNSC—the event fostered impactful discussions on pressing global and national issues. With meticulous planning and the unwavering dedication of the organizing team, MUN 3.0 set a new benchmark for excellence. The conference not only facilitated rigorous debates and insightful workshops but also created a lasting legacy for future MUN teams at IIIT Naya Raipur.            </div>
             </div>
         </div>
     </div>

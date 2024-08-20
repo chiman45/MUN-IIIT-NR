@@ -1,5 +1,5 @@
 import React from "react"
-import CommitteeContainer from "./CommitteeContainer"
+import CommitteeContainer from "./CommitteeContainer.jsx"
 import CommitteeData from "../../../../data/committee.js"
 import './Committee.css'
 

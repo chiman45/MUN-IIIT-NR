@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Anton;
+    src: url('../../../../Assets/Fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+    font-family: Mont;
+    src: url('../../../../Assets/Fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+.team-home{
+    background-image: url('../../../../Assets/Images/Background/MUN Background Image.png');
+    background-size: cover;
+    height: 100svh;
+}
+
+.team-building{
+    position: absolute;
+    bottom: 0;
+    background-image: url('../../../../Assets/Parallax/Building_final.png');
+    background-size: cover;
+    height:70%;
+    width:100%;
+    z-index: 1;
+}
+
+.team-head{
+    position: relative;
+    width:75%;
+    height:100%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 5rem;
+    font-family: Anton;
+    letter-spacing: 0.4rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:6vh;
+}
+
+.year svg{
+    cursor: pointer;
+}
+
+.year svg:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:630px) {
+    .team-head{
+        font-size: 50px;
+    }
+    .year{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:3vh;
+    }
+}
+
+@media (max-width:560px) {
+    .team-head{
+        font-size: 30px;
+    }
+    .year{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:0;
+    }
+    .year svg{
+        height: 60px;
+    }
+}
+
+
+@media (max-width:560px) {
+    .team-head{
+        font-size: 30px;
+    }
+    .year{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:0;
+    }
+    .year svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+

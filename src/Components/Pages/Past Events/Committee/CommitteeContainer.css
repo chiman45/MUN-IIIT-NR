@@ -17,3 +17,11 @@
     color: white;
     font-size: 1rem;
 }
+
+@media (max-width:630px) {
+    .committee-img{
+        height:100px;
+        width: 100px;
+    }
+    
+}
