@@ -28,16 +28,15 @@
     "react": "^18.3.1",
     "react-awesome-reveal": "^4.2.13",
     "react-bootstrap": "^2.10.4",
+    "react-card-flip": "^1.2.3",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",
-    "react-flippy": "^1.1.0",
     "react-router-dom": "^6.26.0",
     "react-scroll-parallax": "^3.4.5",
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.4",
     "react-type-animation": "^3.2.0",
     "slick-carousel": "^1.8.1",
-    "three": "^0.144.0",
     "three.js": "^0.77.0"
   },
   "devDependencies": {
