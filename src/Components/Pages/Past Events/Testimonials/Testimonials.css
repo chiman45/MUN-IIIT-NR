@@ -1,10 +1,9 @@
-.test-cont {
-    height: 100svh;
-}
 
 .test-head {
     color: white;
     padding-left: 11%;
+    font-weight:600;
+    font-family: Anton;
 }
 
 .testimonials {

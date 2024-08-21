@@ -18,8 +18,8 @@ const Testimonials = () => {
         <br />
         <br />
         <div className="testimonials">
-          {testData.map((test) => (
-              <Card sx={{ maxWidth: 345, backgroundColor: '#511E03', padding: "12px", borderRadius: "1rem"}}>
+          {testData.map((test,index) => (
+              <Card sx={{ maxWidth: 345, backgroundColor: '#511E03', padding: "12px", borderRadius: "1rem"}} key={index}>
                 <CardHeader
                   avatar={
                     <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

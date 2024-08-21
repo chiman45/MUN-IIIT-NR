@@ -24,8 +24,8 @@ function Load(){
       wrapper="span"
       speed={50}
       style={{  display: 'inline-block', color:"white",whiteSpace: 'pre-line', fontWeight:'500', fontFamily: 'Anton',
-        webkitTextStroke: '1px white',
-        webkitTextFillColor: 'transparent',letterSpacing:'0.3 rem'}}
+        WebkitTextStroke: '1px white',
+        WebkitTextFillColor: 'transparent',letterSpacing:'0.3 rem'}}
       repeat={Infinity}
       cursor={false}
     />

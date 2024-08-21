@@ -6,6 +6,8 @@ import './PastEvents.css'
 import Testimonials from './Testimonials/Testimonials'
 import Gallery from "./Gallery/Gallery"
 import AboutGallery from './AboutGallery/AboutGallery'
+import ContactUs from '../../ContactUs/ContactUs'
+
 const PastEvents = () => {
   return (
     <div className='past-events-main'>
@@ -26,6 +28,7 @@ const PastEvents = () => {
         text="Organized by Take Da Bait and the Model United Nations on November 9, 2023, this event provided participants with the unique opportunity to assume the roles of either a politician or a journalist. Engaging in one-on-one debates with their counterparts, participants navigated through hypothetical scenarios designed to be both humorous and intellectually stimulating.Participants had the option to select their preferred role, either as a politician or a journalist, and were challenged by scenarios that added an enjoyable dimension to the debating experience. The event aimed to enhance participants' debating skills, expand their perspectives, and foster a strong sense of community within the college."/>
         <Gallery/>
         <Testimonials/>
+        <ContactUs/>
     </div>
   )
 }

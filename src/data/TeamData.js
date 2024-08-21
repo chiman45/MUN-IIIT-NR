@@ -40,23 +40,23 @@ const TeamData={
         ],
         core:[
             {
+                img: Kaushal,
+                name:"Kaushal Ranjan",
+                post: "Head of Creatives",
+            },
+            {
                 img: Divyansh,   
                 name:"Divyansh Singh",
-                post: "Core",
+                post: "Chargé d'affaires",
             },
             {
                 img: Aditya_Jha,
                 name:"Aditya Kumar Jha",
-                post:"Core",
-            },
-            {
-                img: Kaushal,
-                name:"Kaushal Ranjan",
-                post: "Core",
+                post:"Head of Operations",
             },
             {
                 name:"Anushka Ekka",
-                post: "Core",
+                post: "Head of Drafting",
             },
         ],
         senior_team:[

@@ -8,7 +8,7 @@ const AboutGallery = (props) => {
         <div className="main-content">
             <div className="content-box">
                 <div className="sub-head">{props.head1}</div>
-                <div className="sub-sub-head">ABOUT</div>
+                {/* <div className="sub-sub-head">ABOUT</div> */}
                 <div className="about-munc">
                 {props.text}
             </div>

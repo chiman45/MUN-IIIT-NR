@@ -73,13 +73,13 @@
     margin-top: 15px;
 }
 
-.about-munc{
+.about-muncc{
     font-family: Mont;
     font-weight: 200;
     text-align: justify;
     margin: auto;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 27.78px;
     color: white;
 }
@@ -94,7 +94,7 @@
         font-size: 1.2rem;
     }
     
-    .about-munc{
+    .about-muncc{
         font-size: 0.8rem;
     }
 }
@@ -104,7 +104,7 @@
         margin-top: 25vh;
     }
         
-    .about-munc{
+    .about-muncc{
         line-height: 20.78px;
     }
 }
@@ -116,8 +116,8 @@
 }
 
 @media (max-height:620px) {
-    .about-munc{
-        font-size: 0.9rem;
+    .about-muncc{
+        font-size: 0.7rem;
         line-height: 17.78px;
     }
     .past-main .content-box{

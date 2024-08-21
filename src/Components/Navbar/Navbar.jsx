@@ -15,6 +15,7 @@ import Hamburger from 'hamburger-react';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import "./navbar.css";
+import {NavLink} from "react-router-dom"
 
 const navItems = ['About Us', 'Past Event', 'Team', 'FAQ', 'Contact Us'];
 
@@ -59,13 +60,18 @@ function DrawerAppBar(props) {
       </div>
       <Divider />
       <List>
-        {navItems.map((item) => (
+        {/* {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} href={`#${item}`} onClick={() => setOpen(prev => !prev)}>
               <ListItemText primary={item} disableTypography={true} sx={{ fontFamily: "Montserrat" }} />
             </ListItemButton>
           </ListItem>
-        ))}
+        ))} */}
+         <ListItem><ListItemButton href="#About Us" onClick={()=>setOpen(false)}>About Us</ListItemButton></ListItem>
+         <NavLink to="/past-events"><ListItem><ListItemButton onClick={()=>setOpen(false)}>Past Events</ListItemButton></ListItem></NavLink>
+        <NavLink to="/team"><ListItem><ListItemButton onClick={()=>setOpen(false)}>Team</ListItemButton></ListItem></NavLink>
+        <ListItem><ListItemButton href="#FAQ" onClick={()=>setOpen(false)}>FAQ</ListItemButton></ListItem>
+        <ListItem><ListItemButton href="#Contact Us" onClick={()=>setOpen(false)}>Contact Us</ListItemButton></ListItem>
       </List>
     </Box>
   );
@@ -97,7 +103,6 @@ function DrawerAppBar(props) {
                 <Hamburger toggled={isOpen} toggle={setOpen}
                   aria-label="open drawer"
                   edge="start"
-                  onClick={handleDrawerToggle}
                   className="hamburger-icon"
                   sx={{ zIndex: "1201" }}
                 />
@@ -122,11 +127,11 @@ function DrawerAppBar(props) {
                 </Button>
               ))} */}
                  <ul style={{display:'flex', justifyContent:"space-between", listStyle:"none", gap:"2.5vh", margin:"1vh", paddingLeft:"0"}} className='nav-list'>
-              <li>About Us</li>
-              <li>Past Events</li>
-              <li>Team</li>
-              <li>FAQ</li>
-              <li>Contact Us</li>
+              <a href="#About Us"><li>About Us</li></a>
+              <NavLink to="/past-events"><li>Past Events</li></NavLink>
+             <NavLink to="/team"><li>Team</li></NavLink>
+              <a href="#FAQ"><li>FAQ</li></a>
+              <a href="#Contact Us"><li>Contact Us</li></a>
             </ul>
             </Box>
             {/* <button className='nav-button'>Contact Us</button> */}
