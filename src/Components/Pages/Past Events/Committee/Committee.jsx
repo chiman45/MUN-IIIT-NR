@@ -11,7 +11,7 @@ export default function Committee(){
         <div className="head">COMMITTEES</div>
         <div className="committee-contain">
             {CommitteeData.map((item,index)=>{
-                return <CommitteeContainer name={item.name} key={index}/>
+                return <CommitteeContainer name={item.name} key={index} img={item.img}/>
             })}
         </div>
         </div>

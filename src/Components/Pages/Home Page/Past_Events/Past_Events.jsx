@@ -1,5 +1,5 @@
 import React from"react"
-import PastEventIMG from "../../../../images/past_events.png"
+import PastEventIMG from "../../../../images/mun_diplomacy.png"
 import "./Past_Events.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -13,9 +13,9 @@ export default function PastEvents(){
             <div className="image1">
             <img src={PastEventIMG} className="img1" data-aos="fade-up"  />
             <div className="overlay">
-                <Link to="/past-events">
+                {/* <Link to="/past-events"> */}
                 <button className="button">Know more</button>
-                </Link>
+                {/* </Link> */}
                 </div>
             
                 </div>

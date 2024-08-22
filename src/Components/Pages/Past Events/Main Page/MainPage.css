@@ -43,6 +43,7 @@
 .past-main .main-content .head h1{
     font-family: Anton;
     letter-spacing: 0.3rem;
+    font-size: 4rem;
 }
 
 .past-main .main-content .head h5{
@@ -107,11 +108,19 @@
     .about-muncc{
         line-height: 20.78px;
     }
+    .past-main .main-content .head h1{
+        font-family: Anton;
+        letter-spacing: 0.3rem;
+        font-size: 3rem;
+    }
 }
 
 @media (max-width:380px) {
     .past-main .content-box{
         margin-top: 10vh;
+    }
+    .past-main .main-content .head h1{
+        font-size: 2rem;
     }
 }
 

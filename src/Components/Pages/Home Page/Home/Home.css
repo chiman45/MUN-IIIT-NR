@@ -118,12 +118,24 @@
     }
 }
 
+@media (max-width:630px) {
+    .home h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:580px) {
+    .home h5{
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 415px) {
     .MUN_gif img {
         height: 12vh;
     }
     .home h1 {
-        font-size: 22px;
+        font-size: 32px;
     }
     .home h5 {
         font-size: 12px;

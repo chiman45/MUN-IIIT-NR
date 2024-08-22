@@ -7,10 +7,12 @@ import Testimonials from './Testimonials/Testimonials'
 import Gallery from "./Gallery/Gallery"
 import AboutGallery from './AboutGallery/AboutGallery'
 import ContactUs from '../../ContactUs/ContactUs'
+import Navbar2 from '../../Navbar2/Navbar2'
 
 const PastEvents = () => {
   return (
     <div className='past-events-main'>
+        <Navbar2/>
         <MainPage/>
         <Committee/>
         <Events_Grid/>

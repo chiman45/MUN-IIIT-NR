@@ -27,11 +27,11 @@ export default function TeamMain() {
             <TeamHome year={selectedYear} previousYear={previousYear} nextYear={nextYear} />
 <div className="team-main">
             <div className="category">
-                <div className="team-heading">GENERALS</div>
-                <div className="team">
+                <div className="team-heading">LEADS</div>
+                <div className="team" style={{flexDirection:"column"}}>
                     {/* Check if yearData exists and if Generals category is present */}
                     {yearData && yearData.Generals && yearData.Generals.map((member, index) => (
-                        <TeamMember key={index} name={member.name} post={member.post} image={member.img}/>
+                        <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin} insta={member.insta}/>
                     ))}
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default function TeamMain() {
                 <div className="team">
                     {/* Check if yearData exists and if Generals category is present */}
                     {yearData && yearData.core && yearData.core.map((member, index) => (
-                        <TeamMember key={index} name={member.name} post={member.post} image={member.img}/>
+                        <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin}/>
                     ))}
                 </div>
             </div>
@@ -52,11 +52,21 @@ export default function TeamMain() {
                 <div className="team">
                     {/* Check if yearData exists and if Generals category is present */}
                     {yearData && yearData.senior_team && yearData.senior_team.map((member, index) => (
-                        <TeamMember key={index} name={member.name} post={member.post} image={member.img}/>
+                        <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin}/>
                     ))}
                 </div>
             </div>
         </div>
+        {/* Website Team */}
+        <div className="category">
+                <div className="team-heading">Website Team</div>
+                <div className="team">
+                    {/* Check if yearData exists and if Generals category is present */}
+                    {yearData && yearData.Website_team && yearData.Website_team.map((member, index) => (
+                        <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin}/>
+                    ))}
+                </div>
+            </div>
         </div>
     
     );

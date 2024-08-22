@@ -85,7 +85,7 @@ p {
 
 @media only screen and (max-width: 500px) {
     .image-container {
-        height: 35vh;
+        height: 30vh;
     }
 
     .text-center {
@@ -98,3 +98,15 @@ p {
         line-height: 18px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .image {
+      content: url('../../../../images/mun_dip_2.png');
+    }
+  }
+  
+  @media screen and (min-width: 601px) {
+    .image {
+      content: url('../../../../images/MUN.jpg');
+    }
+  }

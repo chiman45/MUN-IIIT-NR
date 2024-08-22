@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React from 'react';
 import MUNImage from '../../../../images/MUN.jpg';
+import MUNImage2 from "../../../../images/mun_dip_2.png"
 import './Diplomacy.css';
 
 AOS.init({ once: true });

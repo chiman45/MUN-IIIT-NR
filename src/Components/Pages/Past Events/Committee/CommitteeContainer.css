@@ -11,6 +11,14 @@
     width: 150px;
     border-radius: 50%;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.committee-img img{
+    width: 85%;
+    object-fit: cover;
 }
 
 .committee-name{
