@@ -27,6 +27,8 @@ import Priyadarshi from "../Assets/Team/24-25/Priyadarshi_img.jpg"
 import Kushagra from "../Assets/Team/24-25/Kushagra Verma.jpg"
 import Alisha from "../Assets/Team/24-25/Alisha Tripathi.jpg"
 import Anushka from "../Assets/Team/24-25/Anushka Ekka.jpg"
+import Mohit from "../Assets/Team/24-25/Mohit.jpg"
+import Anish from "../Assets/Team/24-25/Anish.jpg"
 
 //2023
 
@@ -191,6 +193,16 @@ const TeamData={
             {
                 img: Kushagra,
                 name:"Kushagra Verma",
+                post:"Website Team",
+            },
+            {
+                img: Mohit,
+                name:"Mohit Sharma",
+                post:"Website Team",
+            },
+            {
+                img: Anish,
+                name:"Anish Kumar",
                 post:"Website Team",
             },
         ]
