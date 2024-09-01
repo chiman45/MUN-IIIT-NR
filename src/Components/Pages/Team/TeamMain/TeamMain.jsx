@@ -37,7 +37,7 @@ export default function TeamMain() {
             </div>
             {/* Add sections for other categories if needed */}
             {/*Core Team*/}
-            <div className="category">
+            {yearData.core && <div className="category">
                 <div className="team-heading">CORE TEAM</div>
                 <div className="team">
                     {/* Check if yearData exists and if Generals category is present */}
@@ -45,7 +45,7 @@ export default function TeamMain() {
                         <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin}/>
                     ))}
                 </div>
-            </div>
+            </div>}
            {/*Senior Team*/}
             <div className="category">
                 <div className="team-heading">SENIOR TEAM</div>
@@ -58,7 +58,7 @@ export default function TeamMain() {
             </div>
         </div>
         {/* Website Team */}
-        <div className="category">
+        {yearData.Website_team && <div className="category">
                 <div className="team-heading">Website Team</div>
                 <div className="team">
                     {/* Check if yearData exists and if Generals category is present */}
@@ -66,7 +66,7 @@ export default function TeamMain() {
                         <TeamMember key={index} name={member.name} post={member.post} image={member.img} linkedin={member.linkedin}/>
                     ))}
                 </div>
-            </div>
+            </div>}
         </div>
     
     );
