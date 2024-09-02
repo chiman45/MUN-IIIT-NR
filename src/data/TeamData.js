@@ -228,6 +228,11 @@ const TeamData={
         ],
         core:[
             {
+                img:Shreya,
+                name:"Shreya Tiwari",
+                post: "Chargé d'affaires",
+            },
+            {
                 img: Ayush,
                 name:"Ayush Yadav",
                 post: "Head of Operations",
@@ -241,11 +246,6 @@ const TeamData={
                 img: Muskan,
                 name:"Muskan Dewangan",
                 post:"Head of Drafting ",
-            },
-            {
-                img:Shreya,
-                name:"Shreya Tiwaru",
-                post: "Chargé d'affaires",
             },
         ],
     }
