@@ -26,6 +26,11 @@
     margin-bottom: 15vh;
 }
 
+.team-image-mun{
+    width:100%;
+    border-radius: 25px;
+}
+
 .team-heading{
     font-size: 4vw;
     color: white;

@@ -31,7 +31,12 @@ import Mohit from "../Assets/Team/24-25/Mohit.jpg"
 import Anish from "../Assets/Team/24-25/Anish.jpg"
 
 //2023
-
+import Aniket from "../Assets/Team/23-24/Aniket Pandey.jpg"
+import Apurva from "../Assets/Team/23-24/Apurva Sahu.jpg"
+import Ayush from "../Assets/Team/23-24/Ayush Yadav.jpg"
+import Kanika from "../Assets/Team/23-24/Kanika Malhotra.jpg"
+import Muskan from "../Assets/Team/23-24/Muskan Dewangan.jpg"
+import Shreya from "../Assets/Team/23-24/Shreya Tiwari.jpg"
 
 
 const TeamData={
@@ -211,35 +216,36 @@ const TeamData={
     2023:{
         Generals:[
             {
-                img:Shashank,
-                name:"Shashank Mishra",
+                img:Kanika,
+                name:"Kanika Malhotra",
                 post: "Secretary General",
             },
             {
-                img: Adnan,
-                name:"Sayyed Raahim Adnan",
-                post:"Secretary General",
+                img: Aniket,
+                name:"Aniket Pandey",
+                post:"Director General",
             }
         ],
         core:[
             {
-                img: Kaushal,
-                name:"Kaushal Ranjan",
+                img: Ayush,
+                name:"Ayush Yadav",
+                post: "Head of Operations",
+            },
+            {
+                img: Apurva,   
+                name:"Apurva Sahu",
                 post: "Head of Creatives",
             },
             {
-                img: Divyansh,   
-                name:"Divyansh Singh",
+                img: Muskan,
+                name:"Muskan Dewangan",
+                post:"Head of Drafting ",
+            },
+            {
+                img:Shreya,
+                name:"Shreya Tiwaru",
                 post: "Chargé d'affaires",
-            },
-            {
-                img: Aditya_Jha,
-                name:"Aditya Kumar Jha",
-                post:"Head of Operations",
-            },
-            {
-                name:"Anushka Ekka",
-                post: "Head of Drafting",
             },
         ],
     }

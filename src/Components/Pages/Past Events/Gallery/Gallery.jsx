@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "./Gallery.css";
-import GalleryImages from "../../../../data/GalleryImages.js"
-const Gallery = () => {
+import GalleryData from "../../../../data/GalleryImages.js"
+const Gallery = (props) => {
 
   const settings = {
     infinite:true,
@@ -50,14 +50,13 @@ const Gallery = () => {
       <div className='text'><div className='heading'>PHOTO GALLERY</div></div>
     <div style={{ width: '80vw', margin: '0 auto'  }}  >
       <Slider {...settings}>
-        {GalleryImages.map((image, index) => (
+        {props.Gallery.map((image, index) => (
           <div key={index}   >
             <div className='boxed'   style={{ 
                 boxSizing:'border-box',
                 width: '100%', 
                 padding:'0.7rem',
                 height: '16rem',
-      
               }}>
             <img 
               src={image.img} 
