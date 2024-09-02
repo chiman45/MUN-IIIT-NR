@@ -23,10 +23,10 @@ const ContactUs = () => {
           <p><img src={phone} alt="" /> +91 12345 67890</p> */}
           <br></br>
           <h2>Social Handles</h2>
-          <a href="https://instagram.com"><InstagramIcon fontSize='large'/></a>
-          <a href="https://linkedin.com"><LinkedInIcon fontSize='large'/></a>
-          <a href="https://twitter.com"><FacebookIcon fontSize='large'/></a>
-          <a href="https://facebook.com"><XIcon fontSize='large'/></a>
+          <a href="https://www.instagram.com/mun_iiitnr/"><InstagramIcon fontSize='large'/></a>
+          <a href="https://www.linkedin.com/company/model-united-nations-iiitnr/mycompany/"><LinkedInIcon fontSize='large'/></a>
+          <a href="https://x.com/mun_iiitnr"><FacebookIcon fontSize='large'/></a>
+          <a href="https://www.facebook.com/people/mun_iiitnr/100080167120970/?_rdr"><XIcon fontSize='large'/></a>
         </div>
         {/* <div className="contact-us-item">
           <h2>Social Handles</h2>

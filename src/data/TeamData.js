@@ -29,6 +29,7 @@ import Alisha from "../Assets/Team/24-25/Alisha Tripathi.jpg"
 import Anushka from "../Assets/Team/24-25/Anushka Ekka.jpg"
 import Mohit from "../Assets/Team/24-25/Mohit.jpg"
 import Anish from "../Assets/Team/24-25/Anish.jpg"
+import Aakash from "../Assets/Team/24-25/aakash.jpg"
 
 //2023
 import Aniket from "../Assets/Team/23-24/Aniket Pandey.jpg"
@@ -67,7 +68,7 @@ const TeamData={
             },
             {
                 img: Divyansh,   
-                name:"Divyansh Singh",
+                name:"Divyansh Chauhan",
                 post: "Chargé d'affaires",
                 linkedin: "https://www.linkedin.com/in/divyansh-kumar-singh-chauhan-9b6b8a28a/",
                 insta: "https://www.instagram.com/divyanshkumarsinghchauhan/"
@@ -181,6 +182,11 @@ const TeamData={
             {
                 img: Kemmy,
                 name:"Karmendra",
+                post:"Social Media",
+            },
+            {
+                img: Aakash,
+                name:"Aakash",
                 post:"Social Media",
             },
         ],

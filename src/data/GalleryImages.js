@@ -1,8 +1,8 @@
-import img1 from "../Assets/Images/Mun_Gallery_Photos/DSC_0063.png"
-import img2 from "../Assets/Images/Mun_Gallery_Photos/DSC_1955.png"
-import img3 from "../Assets/Images/Mun_Gallery_Photos/IMG_0594.png"
-import img4 from "../Assets/Images/Mun_Gallery_Photos/DSC_6451.png"
-import img5 from "../Assets/Images/Mun_Gallery_Photos/IMG_2149 (1).png"
+import img1 from "../Assets/Images/Mun_Gallery_Photos/MUNC/DSC_1955.jpg"
+import img2 from "../Assets/Images/Mun_Gallery_Photos/MUNC/DSC_2753.jpg"
+import img3 from "../Assets/Images/Mun_Gallery_Photos/MUNC/DSC_2933.jpg"
+import img4 from "../Assets/Images/Mun_Gallery_Photos/MUNC/IMG_0067.jpg"
+import img5 from "../Assets/Images/Mun_Gallery_Photos/MUNC/IMG_0594.jpg"
 
 //CHAI PE CHARCHA
 import img6 from "../Assets/Images/Mun_Gallery_Photos/Chai_Pe_Charcha/DSC_0063.jpg" 
