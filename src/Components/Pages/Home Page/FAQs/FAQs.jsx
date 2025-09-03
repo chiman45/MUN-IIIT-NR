@@ -43,7 +43,7 @@ const FAQs = () => {
               className={`question ${activeQuestion === 'q2' ? 'expanded' : 'collapsed'}`}
               onClick={() => toggleAnswer('q2')}
             >
-              2: What are the dates of MUN IIIT-NR 4.0?
+              2: What are the dates of MUN IIIT-NR 5.0?
               {/* <div className='circle'>
                 <img src={arrow} alt="arrow" />
               </div> */}
@@ -51,7 +51,7 @@ const FAQs = () => {
 
             </div>
             <div className={`answer ${activeQuestion === 'q2' ? 'show' : ''}`} id="q2">
-              MUNC' 4.0, IIIT-NR is a two day conference and will be tentatively held in the month of April of 2025.
+              MUNC' 5.0, IIIT-NR is a two day conference and will be tentatively held in the month of April of 2026.
             </div>
           </div>
 
@@ -137,7 +137,7 @@ const FAQs = () => {
               <img src={arrow} alt="arrow"/>
             </div>
             <div className={`answer ${activeQuestion === 'q6' ? 'show' : ''}`} id="q6">
-              Delegate and chair applications for IIIT-NR MUN 2024 will be out soon.
+              Delegate and chair applications for IIIT-NR MUN 2026 will be out soon.
             </div>
           </div>
         </div>

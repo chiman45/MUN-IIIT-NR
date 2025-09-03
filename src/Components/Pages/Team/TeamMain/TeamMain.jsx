@@ -6,7 +6,7 @@ import TeamHome from "../TeamHome/TeamHome";
 import Team_MUN_2023 from "../../../../Assets/Team/Team_Mun_2023.png"
 
 export default function TeamMain() {
-    const [selectedYear, setSelectedYear] = React.useState(2024);
+    const [selectedYear, setSelectedYear] = React.useState(2025);
     const currentYear = new Date().getFullYear();
     
     // Get data for the selected year

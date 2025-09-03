@@ -64,7 +64,7 @@ export default function Home() {
             <div className="home-text" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="800">
                 <h5>WELCOME TO</h5>
                 <h1>MODEL UNITED NATIONS</h1>
-                <h5>IIIT NAYA RAIPUR, CHATTISHGARH</h5>
+                <h5>IIIT NAYA RAIPUR, CHHATTISHGARH</h5>
             </div>
             <div className="buildings" data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
@@ -80,9 +80,6 @@ export default function Home() {
                 </Zoom>
             </div>
             <div className="earth" id="earth">
-                <div className="earth-img">
-                <img src={Earth} alt="Earth"  data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="800"/>
-                </div>
                 <div className="flags">
                     <div className="flag1">
                         <img src={Flag_Left} alt="Flag Left" data-aos="fade-right"
@@ -94,6 +91,9 @@ export default function Home() {
                          data-aos-offset="300"
                          data-aos-easing="ease-in-sine" data-aos-delay="1700"/>
                     </div>
+                </div>
+                <div className="earth-img">
+                <img src={Earth} alt="Earth"  data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="800"/>
                 </div>
             </div>
         </div>
