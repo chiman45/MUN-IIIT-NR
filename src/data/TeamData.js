@@ -100,11 +100,6 @@ const TeamData={
         ],
         senior_team:[
             {
-                img: gaurav_singh_,
-                name:"Gaurav Singh",
-                post: "Design",
-            },
-            {
                 img: Soumya_Awasthi_,
                 name:"Soumya Awasthi",
                 post:"Design",
@@ -144,6 +139,11 @@ const TeamData={
                 name:"Navyansh Singh",
                 post:"Sponsorship",
             },
+             {
+                img: Varun_Bhargava_,
+                name:"Varun Bhargava",
+                post:"Sponsorship",
+            },
             {
                 img: Swagata_Barik_,
                 name:"Swagata Barik",
@@ -155,9 +155,19 @@ const TeamData={
                 post: "Marketing",
             },
             {
+                img: Prakriti_Thakur_,
+                name:"Prakriti Thakur",
+                post:"Marketing",
+            },
+            {
                 img: Abhay_Yadav_,
                 name:"Abhay Yadav",
                 post:"Social Media",
+            },
+             {
+                img: gaurav_singh_,
+                name:"Gaurav Singh",
+                post: "People Operations",
             },
             {
                 img: Kush_Agrawal_,
@@ -177,16 +187,6 @@ const TeamData={
             {
                 img: Adidya_Tiwari_,
                 name:"Adidya Tiwari",
-                post:"People Operations",
-            },
-            {
-                img: Prakriti_Thakur_,
-                name:"Prakriti Thakur",
-                post:"People Operations",
-            },
-            {
-                img: Varun_Bhargava_,
-                name:"Varun Bhargava",
                 post:"People Operations",
             },
             {
