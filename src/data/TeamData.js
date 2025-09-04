@@ -100,6 +100,11 @@ const TeamData={
         ],
         senior_team:[
             {
+                img: gaurav_singh_,
+                name:"Gaurav Singh",
+                post: "Design",
+            },
+            {
                 img: Soumya_Awasthi_,
                 name:"Soumya Awasthi",
                 post:"Design",
